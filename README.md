@@ -1,18 +1,29 @@
 # Biblical Views
 
-A interactive theological reference app covering the major doctrinal positions across 13 categories of biblical interpretation. Built with React + TypeScript + Vite, deployed to GitHub Pages.
+An interactive theological reference app exploring 12 major doctrinal questions across 80+ Christian views and traditions. Built with **React + TypeScript + Vite**, deployed to **GitHub Pages** with automated CI/CD.
+
+**Live:** [CAJ654.github.io/Biblical-Views](https://CAJ654.github.io/Biblical-Views/)
 
 -----
 
 ## What It Is
 
-Biblical Views is a single-page reference tool for exploring where different Christian traditions land on contested theological questions — from the nature of hell to gender roles to the millennium. Each category presents the major views along a spectrum from traditional/restrictive to progressive/open, with summaries, key texts, proponents, and contextual notes for each position.
+Biblical Views is a single-page reference tool for exploring where different Christian traditions land on contested theological questions — from the nature of hell to gender roles to the millennium. Each category presents the major views positioned on a spectrum from traditional/restrictive to progressive/open, with summaries, key texts, proponents, and contextual notes for each position.
 
-It’s designed to be descriptive, not prescriptive — the goal is to accurately represent what each tradition actually believes and why, not to advocate for any one position.
+**Design principle:** Descriptive, not prescriptive. The goal is to accurately represent what each tradition actually believes and why, grounded in real scholarship and confessional documents — not strawmen or caricatures.
+
+**Use cases:**
+
+- Researchers comparing theological positions across traditions
+- Students of theology or philosophy exploring doctrinal diversity
+- Faith communities understanding different Christian perspectives
+- Anyone seeking a neutral, non-advocacy reference
 
 -----
 
 ## Categories Covered
+
+12 major doctrinal categories with 6–9 views each:
 
 |# |Category                           |Question                                                       |
 |--|-----------------------------------|---------------------------------------------------------------|
@@ -29,15 +40,13 @@ It’s designed to be descriptive, not prescriptive — the goal is to accuratel
 |11|📖 Scripture & Authority            |What is Scripture’s authority relative to tradition?           |
 |12|⚖️ Gender, Sexuality & the Church   |What does Scripture teach about gender roles and sexual ethics?|
 
-### Views Per Category (selected highlights)
+### Highlights
 
 **Hell & Eternal Destiny** — Eternal Conscious Torment, Purgatory, Immediate Annihilationism, Eventual Annihilationism (Terminal Punishment), Universal Reconciliation
 
-**Torah & the Law** — Antinomianism, Lutheran Law/Gospel, Covenant Theology, New Covenant Theology, Messianic/Torah-Observant, Theonomy
-
-**Rapture & Tribulation** — Pre-Tribulation, Mid-Tribulation, Pre-Wrath, Post-Tribulation, No Rapture (Amil/Postmil)
-
 **Salvation & Soteriology** — Hyper-Calvinism, 5-Point Calvinism (TULIP), 4-Point Calvinism (Amyraldism), Molinism, Classical Arminianism, Wesleyan Arminianism, Open Theism, Semi-Pelagianism, Pelagianism
+
+**Torah & the Law** — Antinomianism, Lutheran Law/Gospel, Covenant Theology, New Covenant Theology, Messianic/Torah-Observant, Theonomy
 
 **Gender, Sexuality & the Church** — Complementarianism, Egalitarianism, Traditional Sexual Ethic (Side B), Reparative/Change Therapy, Revisionist Evangelical, Full Affirmation, Transgender-Inclusive Theologies
 
@@ -45,25 +54,26 @@ It’s designed to be descriptive, not prescriptive — the goal is to accuratel
 
 ## Features
 
-- **Spectrum bar** — visually maps where each view sits relative to others in the category
-- **Expandable cards** — click any view to reveal key texts, proponents, and contextual notes
-- **Tab navigation** — switch between categories instantly
-- **Fully static** — no backend, no database, all data is hardcoded; works offline once loaded
-- **Mobile-friendly** — scrollable tab nav, responsive grid layout
+- **Interactive spectrum bar** — visually maps where each view sits relative to others within its doctrinal category
+- **Expandable detail cards** — click any view to reveal key biblical texts, historical proponents, and contextual notes
+- **Tab-based navigation** — instant switching between 12 categories
+- **Fully static** — no backend, no database; all data hardcoded; works offline once loaded
+- **Responsive design** — works seamlessly on mobile and desktop with scrollable tab nav and adaptive grid layout
+- **Dark theme** — readable in all lighting conditions
 
 -----
 
 ## Tech Stack
 
-|Tool          |Role                   |
-|--------------|-----------------------|
-|React 18      |UI framework           |
-|TypeScript    |Type safety            |
-|Vite 5        |Build tool & dev server|
-|GitHub Actions|CI/CD pipeline         |
-|GitHub Pages  |Hosting                |
+|Tool          |Role                     |
+|--------------|-------------------------|
+|React 18      |UI framework             |
+|TypeScript    |Type safety & IDE support|
+|Vite 5        |Build tool & dev server  |
+|GitHub Actions|Automated CI/CD pipeline |
+|GitHub Pages  |Static hosting           |
 
-No UI library, no CSS framework — all styling is vanilla inline CSS via React style props.
+**No UI library, no CSS framework** — all styling is vanilla inline CSS via React style props, keeping the bundle minimal and the design cohesive.
 
 -----
 
@@ -97,14 +107,12 @@ cd Biblical-Views
 # Install dependencies
 npm install
 
-# Start dev server
+# Start dev server at http://localhost:5173
 npm run dev
 ```
 
-Then open `http://localhost:5173` in your browser.
-
 ```bash
-# Build for production
+# Build for production (outputs to dist/)
 npm run build
 
 # Preview the production build locally
@@ -115,9 +123,9 @@ npm run preview
 
 ## Deployment
 
-The app deploys automatically to GitHub Pages on every push to `main` via the GitHub Actions workflow in `.github/workflows/deploy.yml`.
+**Automated:** The app deploys to GitHub Pages on every push to `main` via GitHub Actions.
 
-**Pipeline steps:**
+**Pipeline:**
 
 1. Checkout code
 1. Set up Node 20
@@ -126,24 +134,39 @@ The app deploys automatically to GitHub Pages on every push to `main` via the Gi
 1. Upload `dist/` as a Pages artifact
 1. Deploy to GitHub Pages
 
-**Live site:** `https://CAJ654.github.io/Biblical-Views/`
+**Live site:** <https://CAJ654.github.io/Biblical-Views/>
 
-To deploy manually, run `npm run build` and upload the `dist/` folder to any static host (Cloudflare Pages, Netlify, etc.).
+**Manual deployment:** Run `npm run build` and upload the `dist/` folder to any static host (Cloudflare Pages, Netlify, Vercel, etc.).
 
 -----
 
 ## Design Philosophy
 
-- **Descriptive, not prescriptive** — each view is presented as its actual proponents would articulate it, not as a strawman
-- **Spectrum positioning** — views are placed on a 0–100 axis within each category; the axis represents the range from most traditional/restrictive to most progressive/open within that specific question (not a universal left/right axis)
-- **Proponents cited** — real scholars, confessions, and traditions are named so readers can follow up with primary sources
-- **Notes surface nuance** — the notes field captures intra-view distinctions, historical context, and cross-tradition relationships that the summary can’t fit
+**Spectrum positioning** — Views are mapped to a 0–100 axis within each category. The axis represents the range from most traditional/restrictive to most progressive/open *for that specific question* — not a universal left/right political axis. Context matters.
+
+**Descriptive, not prescriptive** — Each view is presented as its actual proponents articulate it, grounded in real scholars, confessional documents, and historical traditions. No strawmanning or caricature.
+
+**Proponents cited** — Real names: Augustine, Calvin, Wesley, contemporary scholars, confessions (Westminster, Heidelberg), official church statements (Vatican, Orthodox councils). Readers can follow up with primary sources.
+
+**Nuance in notes** — The notes field captures intra-tradition distinctions, historical context, cross-tradition relationships, and common misconceptions that the summary can’t fit.
+
+-----
+
+## Portfolio Value
+
+This project demonstrates:
+
+- **Full-stack execution** — scoping, curation, component architecture, state management, production deployment
+- **Research depth** — accurate theological representation across 12 contested domains; grounded in scholarship
+- **DevOps chops** — GitHub Actions CI/CD, Vite build optimization, GitHub Pages hosting, semantic versioning
+- **Design sensibility** — dark theme, accessible spectrum UI, responsive layout, intentional information architecture
+- **Code quality** — TypeScript, functional components, clean React patterns, zero dependencies beyond React itself
 
 -----
 
 ## Contributing
 
-This is a personal reference project, but if you spot a factual error, a missing view, or a misrepresentation of a tradition, feel free to open an issue.
+If you spot a factual error, a misrepresentation of a tradition, or a significant view that should be included, feel free to open an issue.
 
 -----
 
