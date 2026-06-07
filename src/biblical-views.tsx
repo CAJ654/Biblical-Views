@@ -371,6 +371,15 @@ const categories = [
         notes: "Holds that the plain reading of Genesis demands 24-hour days and a young universe. Views old-earth positions as compromising Scripture to accommodate secular science."
       },
       {
+  name: "Apparent Age Theory (Omphalos Hypothesis)",
+  spectrum: 8,
+  tags: ["Young Earth", "Minority", "Philosophical"],
+  summary: "God created the universe recently but with a fully formed apparent history — light from distant stars already en route, geological strata already layered, trees already ringed. The universe looks old because it was created mature and functional, not because it actually is old. As Adam was created as an adult rather than an infant, so the cosmos was created 'aged.'",
+  key_texts: ["Gen 1–2", "John 2:1–11 (water to wine — mature instantly)", "Ps 33:9"],
+  proponents: "Philip Henry Gosse (Omphalos, 1857), some modern YEC apologists",
+  notes: "Named after Gosse's 1857 book Omphalos (Greek for 'navel' — Adam was created with a belly button despite never being in a womb). The strongest objection is theological: it makes God appear deceptive, embedding false historical signals into creation. Charles Kingsley famously rejected it on those grounds. Most YECs prefer to dispute radiometric dating assumptions rather than concede apparent age. The hypothesis is technically unfalsifiable — any evidence for an old universe is simply reframed as created appearance."
+},
+      {
         name: "Gap Theory",
         spectrum: 20,
         tags: ["Pentecostal", "Older Dispensational"],
