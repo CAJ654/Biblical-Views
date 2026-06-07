@@ -168,6 +168,10 @@ This project demonstrates:
 
 If you spot a factual error, a misrepresentation of a tradition, or a significant view that should be included, feel free to open an issue.
 
+TODO: Add more views for Spiritual Gifts, Baptism, Scripture & Authority
+TODO: Refine Post Trib & Pre Wrath Rapture Explanations
+TODO: Consider adding more topics
+
 -----
 
 ## License
