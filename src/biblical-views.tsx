@@ -662,6 +662,8 @@ export default function BiblicalViews() {
       minHeight: "100vh",
       display: "flex",
       flexDirection: "column",
+      margin: 0,
+      padding: 0,
     }}>
       {/* Header */}
       <div style={{
