@@ -451,6 +451,33 @@ const categories = [
         notes: "Soft cessationism (gifts became rare) vs. hard cessationism (gifts completely ceased). MacArthur's Strange Fire conference (2013) represents the hard cessationist position."
       },
 			{
+ 				name: "Functional Cessationism",
+ 				spectrum: 5,
+ 				tags: ["Reformed", "Evangelical", "Practical"],
+ 				summary: "Sign gifts theoretically continue but are functionally absent from the church in practice. God *could* grant them but rarely or never does. The focus is on the sufficiency of Scripture and the Word rather than expectation of miraculous gifts. A pragmatic position between hard cessationism and continuationism.",
+ 				key_texts: ["1 Cor 13:8–10", "Heb 2:3–4", "2 Tim 3:16–17"],
+ 				proponents: "Some Reformed evangelicals, moderate cessationists",
+ 				notes: "Avoids the logical problem of hard cessationism (why would God prohibit gifts?) while maintaining skepticism toward charismatic practice. Often held by those sympathetic to continuationism theologically but unconvinced by modern charismatic manifestations."
+			},
+			{
+ 				name: "Mild/Historical Cessationism",
+ 				spectrum: 15,
+ 				tags: ["Moderate", "Evangelical"],
+ 				summary: "Sign gifts were meant to authenticate the apostolic message and gradually ceased as the canon closed and the apostolic office ended. However, God is not bound by this pattern and *could* grant exceptional gifts in extraordinary circumstances. Less dogmatic than hard cessationism; leaves room for rare divine exceptions.",
+ 				key_texts: ["1 Cor 13:8–10", "Heb 2:3–4", "Eph 2:20"],
+ 				proponents: "D.A. Carson, some Presbyterian and evangelical scholars",
+ 				notes: "A softer version of cessationism that acknowledges the biblical gifts were real and normative for the apostolic era, but maintains skepticism about their continuation. Distinguished from hard cessationism by not insisting God could never grant them today."
+			},
+			{
+ 				name: "The Analogous Gifts Framework",
+ 				spectrum: 35,
+ 				tags: ["Continuationist", "Evangelical"],
+ 				summary: "Sign gifts continue but in *analogous* rather than identical forms. Modern prophecy is not the same as OT/apostolic prophecy — it is fallible, congregational, and subject to testing. Tongues operate but with stricter guidelines. Healing happens but through prayer and means, not word-of-faith declarations. Maintains continuationism while addressing historical abuses.",
+ 				key_texts: ["1 Cor 14:29–32 (testing prophecy)", "1 Thess 5:19–21", "1 John 4:1"],
+ 				proponents: "Wayne Grudem, Sam Storms, some thoughtful charismatics",
+ 				notes: "A mediating position that takes seriously both the biblical precedent for gifts and the need for guardrails against abusive practice. Argues the substance of gifts continues but the form may be adapted to the New Covenant context."
+			},
+			{
         name: "Open But Cautious",
         spectrum: 50,
         tags: ["Moderate Evangelical"],
@@ -459,6 +486,33 @@ const categories = [
         proponents: "D.A. Carson, Doug Moo (position spectrum)",
         notes: "A cautious middle ground. Not strictly cessationist but not enthusiastically continuationist. Emphasizes the need for careful discernment."
       },
+			{
+ 				name: "Pentecostalism / Classic Charismatic View",
+ 				spectrum: 60,
+ 				tags: ["Pentecostal", "Charismatic", "Continuationist"],
+ 				summary: "All the gifts of the Spirit, including tongues, prophecy, healing, and words of knowledge, continue in full operation today as they did in Acts. Spirit baptism (a second distinct experience from conversion) is normative and often evidenced by speaking in tongues. Gifts are given for the edification of the church and the advancement of the kingdom.",
+ 				key_texts: ["1 Cor 12–14", "Acts 2:4", "Acts 19:1–6", "Mark 16:17–18"],
+ 				proponents: "Foursquare, Assemblies of God, Church of God in Christ, Kathryn Kuhlman, Aimee Semple McPherson",
+ 				notes: "The classical Pentecostal position emphasizing Spirit baptism as normative and tongues as initial evidence. Distinct from later charismatic renewal (which emphasizes gifts without necessarily the Spirit baptism doctrine) and from Word of Faith (which adds prosperity teaching)."
+			},
+			{
+ 				name: "The Third Wave Movement",
+ 				spectrum: 70,
+ 				tags: ["Charismatic", "Vineyard", "Signs & Wonders"],
+ 				summary: "The Holy Spirit's power and gifts (especially healing, prophecy, deliverance) are actively operative today and should be expected in ministry and evangelism. Emphasizes 'power evangelism' — demonstrating the kingdom through supernatural signs. Less focused on glossolalia than classical Pentecostalism; more focused on healings and prophetic words.",
+ 				key_texts: ["Luke 10:9", "1 Cor 12:7–11", "Mark 16:17–20"],
+ 				proponents: "John Wimber, C. Peter Wagner, Vineyard churches, contemporary renewal movements",
+ 				notes: "Called 'Third Wave' because it follows first-wave Pentecostalism and second-wave Charismatic Renewal. Emphasizes kingdom power and practical demonstration over doctrinal distinctives like Spirit baptism. Very influential in contemporary worship and healing prayer."
+			},
+			{
+ 				name: "Hyper-Charismatic / Word of Faith View",
+ 				spectrum: 90,
+ 				tags: ["Prosperity Gospel", "Word of Faith", "Controversial"],
+ 				summary: "Believers have authority and power to command supernatural results through spoken faith declarations. Sickness and poverty are always the will of Satan, never God's will. Speaking things into existence, 'name it and claim it,' decreeing prosperity and healing — these are seen as proper exercise of believer's authority. Gifts are primarily for personal benefit and material blessing.",
+ 				key_texts: ["Mark 11:24 (interpreted loosely)", "Prov 23:7", "3 John 2"],
+ 				proponents: "Kenneth Copeland, Joyce Meyer, Creflo Dollar, Benny Hinn",
+ 				notes: "Widely critiqued even by charismatics and continuationists for theological errors (conflating believer's authority with divine sovereignty, prosperity as salvific sign). Many evangelical leaders explicitly reject this as distorting Scripture. The most extreme and problematic expression of charismatic theology."
+			},
       {
         name: "Continuationism",
         spectrum: 100,
