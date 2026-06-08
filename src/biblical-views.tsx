@@ -18,7 +18,7 @@ const categories = [
       },
       {
         name: "Purgatory",
-        spectrum: 18,
+        spectrum: 20,
         tags: ["Catholic", "Some Anglican", "Some Orthodox"],
         summary: "Believers who die in God's grace but are not yet fully purified undergo a process of cleansing after death before entering heaven. Purgatory is not a second chance for the damned but a purging of the temporal punishment due to sins already forgiven. The living can aid the dead through prayer, masses, and indulgences.",
         key_texts: ["1 Cor 3:12–15", "2 Macc 12:46 (Deuterocanon)", "Matt 12:32", "Rev 21:27"],
@@ -27,7 +27,7 @@ const categories = [
       },
       {
         name: "Immediate Annihilationism",
-        spectrum: 40,
+        spectrum: 55,
         tags: ["Conditionalist", "Evangelical", "Adventist"],
         summary: "At death (or at final judgment), the unsaved simply cease to exist — there is no period of conscious suffering beforehand. Destruction is instantaneous. Immortality is not inherent to human nature; only believers receive it as a gift in resurrection.",
         key_texts: ["Matt 10:28", "Rom 6:23", "Ps 37:9–10", "Mal 4:1–3"],
@@ -36,7 +36,7 @@ const categories = [
       },
       {
         name: "Eventual Annihilationism (Terminal Punishment)",
-        spectrum: 60,
+        spectrum: 65,
         tags: ["Evangelical", "Conditionalist", "Growing"],
         summary: "The unsaved experience a real but finite period of conscious punishment after judgment, proportional to their deeds, before being destroyed entirely. Hell is not unending torment but ends in extinction. Sometimes called 'terminal punishment' or 'conditional immortality.'",
         key_texts: ["2 Pet 3:7", "Rev 20:14–15", "Matt 10:28", "2 Thess 1:9"],
@@ -61,44 +61,17 @@ const categories = [
     question: "What is the believer's relationship to the Mosaic Law?",
     views: [
       {
-        name: "Antinomianism",
+        name: "Theonomy / Christian Reconstructionism",
         spectrum: 0,
-        tags: ["Heretical (historically)", "Hyper-grace"],
-        summary: "Believers are entirely free from the moral law as a rule of life. Grace eliminates any obligatory role of law — including the Ten Commandments — for the Christian. Sanctification is purely Spirit-led with no legal framework.",
-        key_texts: ["Rom 6:14", "Gal 5:18"],
-        proponents: "Johannes Agricola (historical), some hyper-grace teachers",
-        notes: "Condemned at the Council of Trent and by Luther. Most mainstream positions affirm law's role in conviction and sanctification even while rejecting it as a basis for justification."
-      },
-      {
-        name: "Lutheran Law/Gospel Distinction",
-        spectrum: 20,
-        tags: ["Lutheran", "Two-Kingdom"],
-        summary: "Law and Gospel are sharply distinguished. The law's primary role is to expose sin (usus elenchticus). Believers live under the Gospel, not the law, though the law still functions civilly and as a mirror. The Mosaic covenant is not binding on Christians.",
-        key_texts: ["Gal 3:24–25", "Rom 3:20", "Rom 10:4"],
-        proponents: "Luther, Melanchthon, C.F.W. Walther",
-        notes: "Distinguishes 'third use of the law' (guide for believers) which Luther was ambivalent about; later Lutheranism affirms it."
-      },
-      {
-        name: "Covenant Theology (3-Covenant)",
-        spectrum: 35,
-        tags: ["Reformed", "Presbyterian"],
-        summary: "The Mosaic Law is part of the Covenant of Grace administration. The moral law (Ten Commandments) remains binding on all people. Ceremonial laws are fulfilled in Christ; civil laws are expired but their equity applies. Believers obey the law out of gratitude.",
-        key_texts: ["Matt 5:17–19", "Rom 13:8–10", "WCF XIX"],
-        proponents: "Calvin, Westminster Standards, Heidelberg Catechism, RC Sproul",
-        notes: "Distinguishes moral/ceremonial/civil law tripartite division. The Sabbath commandment remains binding (usually transferred to Sunday)."
-      },
-      {
-        name: "New Covenant Theology (NCT)",
-        spectrum: 55,
-        tags: ["Baptist", "Reformed Baptist"],
-        summary: "The Mosaic Covenant has been entirely fulfilled and superseded by the New Covenant. Christians are not under any aspect of the Mosaic Law as a covenant. The moral standard comes through the 'law of Christ' mediated through the NT apostles.",
-        key_texts: ["Heb 8:13", "Jer 31:31–34", "Gal 6:2", "1 Cor 9:21"],
-        proponents: "Tom Wells, Fred Zaspel, John Reisinger",
-        notes: "Rejects the moral/ceremonial/civil tripartite split. The Decalogue is not directly binding; nine of ten commandments are re-issued in the NT (Sabbath is not)."
+        tags: ["Reformed", "Reconstructionist"],
+        summary: "All three categories of Mosaic Law (moral, ceremonial, civil) remain binding unless explicitly repealed in the NT. Ceremonial laws are fulfilled typologically in Christ. The civil laws of Israel should ideally be implemented by nations today as God's just social order.",
+        key_texts: ["Matt 5:17–19", "Deut 4:5–8", "Ps 119"],
+        proponents: "R.J. Rushdoony, Greg Bahnsen, Gary North",
+        notes: "A minority Reformed view. Distinguished from mere 'moral law' positions by insisting Israel's civil code is normative for civil government today."
       },
       {
         name: "Messianic / Torah-Observant",
-        spectrum: 80,
+        spectrum: 15,
         tags: ["Messianic Jewish", "Hebrew Roots"],
         summary: "The Torah remains God's instruction (torah = 'teaching') for all believers. Yeshua/Jesus did not abolish the Torah but clarified and embodied it. Gentile believers are grafted into Israel and called to observe Torah life — including Shabbat, dietary laws, and appointed times (moedim).",
         key_texts: ["Matt 5:17–19", "Rom 3:31", "Acts 21:20–24", "Eph 2:11–19"],
@@ -106,13 +79,40 @@ const categories = [
         notes: "Distinct from legalism — Torah is walked out by Spirit-empowered believers, not as a basis for justification. Broad spectrum from 'Jew-only' obligations to universal observance."
       },
       {
-        name: "Theonomy / Christian Reconstructionism",
-        spectrum: 95,
-        tags: ["Reformed", "Reconstructionist"],
-        summary: "All three categories of Mosaic Law (moral, ceremonial, civil) remain binding unless explicitly repealed in the NT. Ceremonial laws are fulfilled typologically in Christ. The civil laws of Israel should ideally be implemented by nations today as God's just social order.",
-        key_texts: ["Matt 5:17–19", "Deut 4:5–8", "Ps 119"],
-        proponents: "R.J. Rushdoony, Greg Bahnsen, Gary North",
-        notes: "A minority Reformed view. Distinguished from mere 'moral law' positions by insisting Israel's civil code is normative for civil government today."
+        name: "Covenant Theology (3-Covenant)",
+        spectrum: 40,
+        tags: ["Reformed", "Presbyterian"],
+        summary: "The Mosaic Law is part of the Covenant of Grace administration. The moral law (Ten Commandments) remains binding on all people. Ceremonial laws are fulfilled in Christ; civil laws are expired but their equity applies. Believers obey the law out of gratitude.",
+        key_texts: ["Matt 5:17–19", "Rom 13:8–10", "WCF XIX"],
+        proponents: "Calvin, Westminster Standards, Heidelberg Catechism, RC Sproul",
+        notes: "Distinguishes moral/ceremonial/civil law tripartite division. The Sabbath commandment remains binding (usually transferred to Sunday)."
+      },
+			{
+        name: "New Covenant Theology (NCT)",
+        spectrum: 60,
+        tags: ["Baptist", "Reformed Baptist"],
+        summary: "The Mosaic Covenant has been entirely fulfilled and superseded by the New Covenant. Christians are not under any aspect of the Mosaic Law as a covenant. The moral standard comes through the 'law of Christ' mediated through the NT apostles.",
+        key_texts: ["Heb 8:13", "Jer 31:31–34", "Gal 6:2", "1 Cor 9:21"],
+        proponents: "Tom Wells, Fred Zaspel, John Reisinger",
+        notes: "Rejects the moral/ceremonial/civil tripartite split. The Decalogue is not directly binding; nine of ten commandments are re-issued in the NT (Sabbath is not)."
+      },
+			{
+        name: "Lutheran Law/Gospel Distinction",
+        spectrum: 75,
+        tags: ["Lutheran", "Two-Kingdom"],
+        summary: "Law and Gospel are sharply distinguished. The law's primary role is to expose sin (usus elenchticus). Believers live under the Gospel, not the law, though the law still functions civilly and as a mirror. The Mosaic covenant is not binding on Christians.",
+        key_texts: ["Gal 3:24–25", "Rom 3:20", "Rom 10:4"],
+        proponents: "Luther, Melanchthon, C.F.W. Walther",
+        notes: "Distinguishes 'third use of the law' (guide for believers) which Luther was ambivalent about; later Lutheranism affirms it."
+      },
+      {
+        name: "Antinomianism",
+        spectrum: 96,
+        tags: ["Heretical (historically)", "Hyper-grace"],
+        summary: "Believers are entirely free from the moral law as a rule of life. Grace eliminates any obligatory role of law — including the Ten Commandments — for the Christian. Sanctification is purely Spirit-led with no legal framework.",
+        key_texts: ["Rom 6:14", "Gal 5:18"],
+        proponents: "Johannes Agricola (historical), some hyper-grace teachers",
+        notes: "Condemned at the Council of Trent and by Luther. Most mainstream positions affirm law's role in conviction and sanctification even while rejecting it as a basis for justification."
       },
     ]
   },
@@ -133,7 +133,7 @@ const categories = [
       },
       {
         name: "Mid-Tribulation Rapture",
-        spectrum: 30,
+        spectrum: 25,
         tags: ["Dispensational variant"],
         summary: "The church is raptured at the midpoint of the 7-year Tribulation (after 3.5 years), before the 'Great Tribulation' begins. The first half is not divine wrath; the second half is.",
         key_texts: ["Rev 11:3", "Dan 9:27", "1 Cor 15:52"],
@@ -142,7 +142,7 @@ const categories = [
       },
       {
         name: "Pre-Wrath Rapture",
-        spectrum: 55,
+        spectrum: 50,
         tags: ["Evangelical"],
         summary: "The church endures the Tribulation through the seal and trumpet judgments but is raptured before God's specific 'wrath' — the bowl judgments — is poured out, somewhere in the second half of the 70th week. The seals and trumpets are Satan's/man's wrath, not God's.",
         key_texts: ["1 Thess 5:9", "Rev 6:17", "Matt 24:29–31"],
@@ -151,7 +151,7 @@ const categories = [
       },
       {
         name: "Post-Tribulation Rapture",
-        spectrum: 80,
+        spectrum: 85,
         tags: ["Historic Premillennial", "Reformed", "Charismatic"],
         summary: "The church endures the full Tribulation period and is raptured at Christ's Second Coming — the rapture and the return are the same event. The church is protected through tribulation, not removed from it.",
         key_texts: ["Matt 24:29–31", "2 Thess 2:1–4", "Rev 20:4–6"],
@@ -175,18 +175,9 @@ const categories = [
     title: "The Millennium",
     question: "What is the nature of Christ's 1,000-year reign?",
     views: [
-      {
-        name: "Premillennialism (Historic)",
-        spectrum: 0,
-        tags: ["Early Church", "Evangelical"],
-        summary: "Christ returns before (pre) a literal 1,000-year reign on earth. The millennium is a future, physical kingdom in which Christ reigns from Jerusalem. Resurrection of the righteous precedes it; resurrection of the wicked follows.",
-        key_texts: ["Rev 20:1–6", "Zech 14", "Isa 65:17–25"],
-        proponents: "Justin Martyr, Irenaeus, George Ladd, Wayne Grudem",
-        notes: "Distinguished from Dispensational Premillennialism by not requiring a pretrib rapture or a restored Mosaic temple system."
-      },
-      {
+			{
         name: "Dispensational Premillennialism",
-        spectrum: 20,
+        spectrum: 0,
         tags: ["Dispensational", "Popular Evangelical"],
         summary: "Christ returns pre-millennium, but the millennium involves a restored national Israel, a rebuilt temple, and reinstituted sacrificial system (as memorial). Two distinct peoples of God (Israel and Church) have distinct programs fulfilled in this age.",
         key_texts: ["Rev 20", "Ezek 40–48", "Dan 9"],
@@ -194,22 +185,31 @@ const categories = [
         notes: "The dominant view in American evangelical seminaries for much of the 20th century. Replaced largely by progressive dispensationalism in academic circles."
       },
       {
-        name: "Amillennialism",
-        spectrum: 60,
-        tags: ["Reformed", "Lutheran", "Catholic", "Orthodox"],
-        summary: "The 1,000 years is symbolic — it represents the current church age between Christ's first and second comings. Satan is bound in the sense that the gospel goes to all nations. Christ reigns now from heaven; the millennium is not a future earthly period.",
-        key_texts: ["Rev 20:1–6", "John 12:31", "Col 1:13"],
-        proponents: "Augustine, Luther, Calvin, Bavinck, RC Sproul, Anthony Hoekema",
-        notes: "The dominant view historically and globally. 'Amil' does not mean 'no millennium' but 'no literal future earthly 1,000 years.'"
+        name: "Premillennialism (Historic)",
+        spectrum: 15,
+        tags: ["Early Church", "Evangelical"],
+        summary: "Christ returns before (pre) a literal 1,000-year reign on earth. The millennium is a future, physical kingdom in which Christ reigns from Jerusalem. Resurrection of the righteous precedes it; resurrection of the wicked follows.",
+        key_texts: ["Rev 20:1–6", "Zech 14", "Isa 65:17–25"],
+        proponents: "Justin Martyr, Irenaeus, George Ladd, Wayne Grudem",
+        notes: "Distinguished from Dispensational Premillennialism by not requiring a pretrib rapture or a restored Mosaic temple system."
       },
       {
         name: "Postmillennialism",
-        spectrum: 90,
+        spectrum: 85,
         tags: ["Reformed", "Reconstructionist", "Optimistic"],
         summary: "The millennium is a future golden age brought about by the spread of the Gospel before Christ returns. The church gradually Christianizes society and culture; Christ returns after (post) this period of kingdom flourishing.",
         key_texts: ["Matt 28:18–20", "Ps 72", "Isa 2:2–4", "Rom 11:12"],
         proponents: "Jonathan Edwards, Charles Hodge, B.B. Warfield, RC Sproul Jr., Doug Wilson",
         notes: "Was common among 19th-century Reformed scholars. Declined after WWI. Revived by the Christian Reconstruction movement. Optimistic about history and cultural transformation."
+      },
+			{
+        name: "Amillennialism",
+        spectrum: 100,
+        tags: ["Reformed", "Lutheran", "Catholic", "Orthodox"],
+        summary: "The 1,000 years is symbolic — it represents the current church age between Christ's first and second comings. Satan is bound in the sense that the gospel goes to all nations. Christ reigns now from heaven; the millennium is not a future earthly period.",
+        key_texts: ["Rev 20:1–6", "John 12:31", "Col 1:13"],
+        proponents: "Augustine, Luther, Calvin, Bavinck, RC Sproul, Anthony Hoekema",
+        notes: "The dominant view historically and globally. 'Amil' does not mean 'no millennium' but 'no literal future earthly 1,000 years.'"
       },
     ]
   },
@@ -248,7 +248,7 @@ const categories = [
       },
       {
         name: "Molinism",
-        spectrum: 32,
+        spectrum: 30,
         tags: ["Catholic", "Some Evangelical"],
         summary: "God possesses 'middle knowledge' — knowledge of what free creatures would freely do in any circumstance (counterfactuals of creaturely freedom). God uses this knowledge to actualize a world in which his purposes are achieved without overriding libertarian free will. Election is based on God's foreknowledge of who would freely believe under the right conditions.",
         key_texts: ["Matt 11:21–23", "1 Sam 23:10–13", "Rom 8:29"],
@@ -257,7 +257,7 @@ const categories = [
       },
       {
         name: "Classical Arminianism",
-        spectrum: 45,
+        spectrum: 50,
         tags: ["Arminian", "Reformed Arminian"],
         summary: "Conditional election based on God's foreknowledge of faith. Universal atonement. Prevenient grace enables but does not compel belief — libertarian free will is restored to all. Saving grace can be resisted. Apostasy is genuinely possible for true believers.",
         key_texts: ["John 3:16", "Rom 8:29", "Acts 7:51", "Heb 6:4–6"],
@@ -266,7 +266,7 @@ const categories = [
       },
       {
         name: "Wesleyan Arminianism",
-        spectrum: 55,
+        spectrum: 60,
         tags: ["Methodist", "Wesleyan", "Holiness"],
         summary: "Builds on classical Arminianism but adds Wesley's distinctive doctrines: universal prevenient grace (sufficient for all to respond), entire sanctification (a second definite work of grace perfecting love), and optimism about grace's transformative power. Salvation can be lost through willful apostasy.",
         key_texts: ["1 John 4:18", "Phil 3:12–14", "Heb 10:26–27", "2 Pet 1:10"],
@@ -275,7 +275,7 @@ const categories = [
       },
       {
         name: "Open Theism",
-        spectrum: 65,
+        spectrum: 70,
         tags: ["Minority Evangelical"],
         summary: "God does not have exhaustive foreknowledge of future free decisions. The future is genuinely open — God knows all possibilities but not which ones free creatures will actualize. God takes real risks in creation, responds genuinely to prayer, and can be surprised by human choices. Election is genuinely conditional.",
         key_texts: ["Gen 22:12", "Jer 3:7", "Jonah 3:10", "Exod 32:14"],
@@ -284,7 +284,7 @@ const categories = [
       },
       {
         name: "Semi-Pelagianism",
-        spectrum: 78,
+        spectrum: 80,
         tags: ["Condemned (Council of Orange)", "Popular Folk Christianity"],
         summary: "Human beings, though weakened by the Fall, retain enough natural capacity to make the first move toward God — to seek, inquire, or will toward salvation — and God's grace then responds to and assists that initial human initiative. Grace cooperates with natural human effort.",
         key_texts: ["Deut 4:29", "Jer 29:13", "Acts 17:27"],
@@ -293,7 +293,7 @@ const categories = [
       },
       {
         name: "Pelagianism",
-        spectrum: 90,
+        spectrum: 100,
         tags: ["Heretical", "Condemned"],
         summary: "Human beings are not fallen in the Augustinian sense — the will is fully free and capable of choosing good without divine grace. Adam's sin set a bad example but did not corrupt human nature. Salvation is achieved by moral effort and free choice. Grace assists but is not necessary for the initial turn to God.",
         key_texts: ["Deut 30:19", "Sir 15:14–17 (Apocrypha)"],
@@ -363,7 +363,7 @@ const categories = [
     views: [
       {
         name: "Young Earth Creationism (YEC)",
-        spectrum: 0,
+        spectrum: 5,
         tags: ["Conservative Evangelical", "Fundamentalist"],
         summary: "God created the universe in six literal 24-hour days approximately 6,000–10,000 years ago. The global flood of Noah explains most geological strata. Scientific evidence for an old earth reflects faulty assumptions about initial conditions.",
         key_texts: ["Gen 1–2", "Exod 20:11", "Gen 5 & 11 genealogies"],
@@ -371,17 +371,17 @@ const categories = [
         notes: "Holds that the plain reading of Genesis demands 24-hour days and a young universe. Views old-earth positions as compromising Scripture to accommodate secular science."
       },
       {
-  name: "Apparent Age Theory (Omphalos Hypothesis)",
-  spectrum: 8,
-  tags: ["Young Earth", "Minority", "Philosophical"],
-  summary: "God created the universe recently but with a fully formed apparent history — light from distant stars already en route, geological strata already layered, trees already ringed. The universe looks old because it was created mature and functional, not because it actually is old. As Adam was created as an adult rather than an infant, so the cosmos was created 'aged.'",
-  key_texts: ["Gen 1–2", "John 2:1–11 (water to wine — mature instantly)", "Ps 33:9"],
-  proponents: "Philip Henry Gosse (Omphalos, 1857), some modern YEC apologists",
-  notes: "Named after Gosse's 1857 book Omphalos (Greek for 'navel' — Adam was created with a belly button despite never being in a womb). The strongest objection is theological: it makes God appear deceptive, embedding false historical signals into creation. Charles Kingsley famously rejected it on those grounds. Most YECs prefer to dispute radiometric dating assumptions rather than concede apparent age. The hypothesis is technically unfalsifiable — any evidence for an old universe is simply reframed as created appearance."
-},
+        name: "Apparent Age Theory (Omphalos Hypothesis)",
+        spectrum: 10,
+        tags: ["Young Earth", "Minority", "Philosophical"],
+        summary: "God created the universe recently but with a fully formed apparent history — light from distant stars already en route, geological strata already layered, trees already ringed. The universe looks old because it was created mature and functional, not because it actually is old. As Adam was created as an adult rather than an infant, so the cosmos was created 'aged.'",
+        key_texts: ["Gen 1–2", "John 2:1–11 (water to wine — mature instantly)", "Ps 33:9"],
+        proponents: "Philip Henry Gosse (Omphalos, 1857), some modern YEC apologists",
+        notes: "Named after Gosse's 1857 book Omphalos (Greek for 'navel' — Adam was created with a belly button despite never being in a womb). The strongest objection is theological: it makes God appear deceptive, embedding false historical signals into creation. Charles Kingsley famously rejected it on those grounds. Most YECs prefer to dispute radiometric dating assumptions rather than concede apparent age. The hypothesis is technically unfalsifiable — any evidence for an old universe is simply reframed as created appearance."
+      },
       {
         name: "Gap Theory",
-        spectrum: 20,
+        spectrum: 25,
         tags: ["Pentecostal", "Older Dispensational"],
         summary: "A large gap of time exists between Genesis 1:1 (original creation) and 1:2 ('formless and void' — a judgment state). The six days of creation are a re-creation after a catastrophic fall of Satan that destroyed the original world.",
         key_texts: ["Gen 1:1–2", "Isa 14:12", "Jer 4:23–26"],
@@ -390,7 +390,7 @@ const categories = [
       },
       {
         name: "Day-Age Theory (Old Earth Creationism)",
-        spectrum: 45,
+        spectrum: 50,
         tags: ["Conservative Evangelical", "Old Earth"],
         summary: "The 'days' of Genesis 1 are long ages corresponding to geological epochs. God created through a sequence matching the Genesis order but over billions of years. Miracles of creation still occurred; macro-evolution is generally rejected.",
         key_texts: ["Gen 1 (yom = 'age')", "2 Pet 3:8", "Ps 90:4"],
@@ -399,7 +399,7 @@ const categories = [
       },
       {
         name: "Framework Hypothesis",
-        spectrum: 60,
+        spectrum: 65,
         tags: ["Reformed", "Academic"],
         summary: "Genesis 1 is structured as a literary/artistic framework, not a chronological account. Days 1–3 form the 'realms' and days 4–6 their 'rulers.' The account communicates theological truth (who created, why) rather than scientific sequence.",
         key_texts: ["Gen 1", "Ps 104"],
@@ -408,7 +408,7 @@ const categories = [
       },
       {
         name: "Theistic Evolution",
-        spectrum: 85,
+        spectrum: 95,
         tags: ["Mainline Protestant", "Catholic", "BioLogos"],
         summary: "God created through the natural process of evolution. Common descent of all life, including humans, is affirmed. God's action was through natural processes he designed and sustains. Genesis is read as ancient cosmological myth conveying theological truth.",
         key_texts: ["Rom 1:20", "Ps 19:1", "Gen 1–2 (literary)"],
@@ -432,23 +432,23 @@ const categories = [
         proponents: "B.B. Warfield, John MacArthur, RC Sproul, Richard Gaffin",
         notes: "Soft cessationism (gifts became rare) vs. hard cessationism (gifts completely ceased). MacArthur's Strange Fire conference (2013) represents the hard cessationist position."
       },
-      {
-        name: "Continuationism",
-        spectrum: 55,
-        tags: ["Charismatic", "Pentecostal", "Many Evangelicals"],
-        summary: "All the gifts of the Spirit listed in the NT continue to be given by the Spirit today. Prophecy, tongues, healing, and words of knowledge operate in the contemporary church, though under the authority of Scripture.",
-        key_texts: ["1 Cor 12–14", "Acts 2:17–18", "Joel 2:28–29"],
-        proponents: "Wayne Grudem, Sam Storms, Jack Deere, most of the global church",
-        notes: "The majority view globally and historically. Differs from hyper-charismaticism by insisting gifts are tested against Scripture and are not ongoing revelation at the level of the canon."
-      },
-      {
+			{
         name: "Open But Cautious",
-        spectrum: 80,
+        spectrum: 50,
         tags: ["Moderate Evangelical"],
         summary: "The gifts may continue today but the charismatic movement as practiced raises serious concerns about abuse, confusion, and unbiblical practices. Openness to genuine gifts with strong skepticism toward specific charismatic expressions.",
         key_texts: ["1 Thess 5:19–21", "1 Cor 14:40"],
         proponents: "D.A. Carson, Doug Moo (position spectrum)",
         notes: "A cautious middle ground. Not strictly cessationist but not enthusiastically continuationist. Emphasizes the need for careful discernment."
+      },
+      {
+        name: "Continuationism",
+        spectrum: 100,
+        tags: ["Charismatic", "Pentecostal", "Many Evangelicals"],
+        summary: "All the gifts of the Spirit listed in the NT continue to be given by the Spirit today. Prophecy, tongues, healing, and words of knowledge operate in the contemporary church, though under the authority of Scripture.",
+        key_texts: ["1 Cor 12–14", "Acts 2:17–18", "Joel 2:28–29"],
+        proponents: "Wayne Grudem, Sam Storms, Jack Deere, most of the global church",
+        notes: "The majority view globally and historically. Differs from hyper-charismaticism by insisting gifts are tested against Scripture and are not ongoing revelation at the level of the canon."
       },
     ]
   },
@@ -478,7 +478,7 @@ const categories = [
       },
       {
         name: "Credobaptism (Believer's Baptism)",
-        spectrum: 70,
+        spectrum: 85,
         tags: ["Baptist", "Anabaptist", "Evangelical"],
         summary: "Baptism is only for those who have made a personal profession of faith — it is the believer's public declaration of salvation already received. It is ordinarily by immersion (the mode matching the Greek baptizō and symbolizing death/resurrection).",
         key_texts: ["Acts 2:41", "Acts 8:36–38", "Rom 6:3–4", "Matt 28:19"],
@@ -504,7 +504,7 @@ const categories = [
       },
       {
         name: "Consubstantiation / Sacramental Union",
-        spectrum: 30,
+        spectrum: 25,
         tags: ["Lutheran"],
         summary: "Christ's body and blood are truly present 'in, with, and under' the bread and wine — a sacramental union, not a transformation. The bread remains bread; yet Christ is truly bodily present. The Lord's Supper confers forgiveness of sins.",
         key_texts: ["Matt 26:26", "1 Cor 10:16"],
@@ -522,7 +522,7 @@ const categories = [
       },
       {
         name: "Memorialism / Symbolic View",
-        spectrum: 90,
+        spectrum: 100,
         tags: ["Baptist", "Zwinglian", "Many Evangelicals"],
         summary: "The bread and wine are symbols and memorials of Christ's sacrifice. Nothing physical or spiritual changes in the elements. The Supper is an ordinance of remembrance and proclamation — a visible enactment of the Gospel — not a means of conveying grace.",
         key_texts: ["Luke 22:19", "1 Cor 11:26"],
@@ -548,7 +548,7 @@ const categories = [
       },
       {
         name: "Prima Scriptura",
-        spectrum: 30,
+        spectrum: 35,
         tags: ["Wesleyan", "Some Anglican"],
         summary: "Scripture is the primary authority but not the only authority. Tradition, reason, and experience (Wesley's 'quadrilateral') all inform theology, with Scripture as first among equals. Church tradition has genuine authority but can be critiqued by Scripture.",
         key_texts: ["2 Tim 3:16", "Acts 15 (council model)"],
@@ -557,7 +557,7 @@ const categories = [
       },
       {
         name: "Scripture + Tradition (Catholic)",
-        spectrum: 65,
+        spectrum: 70,
         tags: ["Catholic"],
         summary: "Divine Revelation comes through both Sacred Scripture and Sacred Tradition, both transmitted under the guidance of the Magisterium (teaching authority of the Church). The Magisterium alone authoritatively interprets both. The canon itself was determined by the Church.",
         key_texts: ["2 Thess 2:15", "1 Tim 3:15", "Matt 16:18–19"],
@@ -601,7 +601,7 @@ const categories = [
       },
       {
         name: "Traditional Sexual Ethic (Side B)",
-        spectrum: 38,
+        spectrum: 35,
         tags: ["Catholic", "Orthodox", "Conservative Evangelical"],
         summary: "Same-sex sexual activity is prohibited by Scripture in all circumstances. However, same-sex attraction itself is not sinful — it is a temptation to be resisted, not an identity to be affirmed. Gay and lesbian Christians are called to celibacy. Often called 'Side B' in LGBTQ Christian discourse.",
         key_texts: ["Gen 2:24", "Lev 18:22", "Rom 1:26–27", "1 Cor 6:9–11"],
@@ -610,7 +610,7 @@ const categories = [
       },
       {
         name: "Reparative / Change Therapy View",
-        spectrum: 52,
+        spectrum: 50,
         tags: ["Conservative Evangelical", "Controversial", "Minority"],
         summary: "Same-sex attraction is a disordered condition that can be reduced or redirected through prayer, counseling, or therapy. Some proponents claim significant change in orientation is possible for some individuals. Sexual orientation is understood as fluid rather than fixed.",
         key_texts: ["1 Cor 6:11 ('such were some of you')", "Rom 12:2"],
@@ -637,7 +637,7 @@ const categories = [
       },
       {
         name: "Transgender-Inclusive Theologies",
-        spectrum: 90,
+        spectrum: 100,
         tags: ["Progressive", "Academic", "Emerging"],
         summary: "Gender identity is not fixed by biological sex at birth. Transgender and non-binary identities are affirmed as valid expressions of human diversity and not contrary to Christian anthropology. Some theologians argue the biblical vision of 'male and female' is descriptive of diversity rather than prescriptive of rigid binary categories.",
         key_texts: ["Gen 1:27 (re-read)", "Gal 3:28 ('neither male nor female')", "Isa 56:3–5 (eunuchs)"],
