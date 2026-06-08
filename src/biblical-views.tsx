@@ -780,8 +780,8 @@ export default function BiblicalViews() {
             ))}
           </div>
           <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.65rem", color: "#5a5040", letterSpacing: "0.05em" }}>
-            <span>◀ MORE RESTRICTIVE / TRADITIONAL</span>
-            <span>MORE PROGRESSIVE / OPEN ▶</span>
+            <span>◀ MORE RESTRICTIVE</span>
+            <span>MORE OPEN ▶</span>
           </div>
         </div>
 
