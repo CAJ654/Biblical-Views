@@ -255,6 +255,15 @@ const categories = [
         proponents: "Luis de Molina, Alvin Plantinga, William Lane Craig, Thomas Flint",
         notes: "Attempts to fully reconcile Calvinist sovereignty and Arminian freedom. Critiqued from both sides — Calvinists say middle knowledge is incoherent or limits God; Arminians say it smuggles in soft determinism. Dominant in Jesuit theology."
       },
+			{
+ 				name: "Molinist Arminianism",
+ 				spectrum: 40,
+ 				tags: ["Molinist", "Arminian", "Some Evangelical"],
+ 				summary: "God possesses middle knowledge of all counterfactuals of creaturely freedom — what any free creature would freely choose in any circumstance. Election is based on God's foreknowledge of who would freely believe, but God's omniscience guarantees the outcome. Combines Arminian free will with confidence in God's sovereignty through middle knowledge.",
+ 				key_texts: ["Rom 8:29", "Matt 11:21–23", "1 Sam 23:10–13"],
+ 				proponents: "Alvin Plantinga, William Lane Craig, Thomas Flint, some contemporary Arminians",
+ 				notes: "A bridge position between classical Molinians (who are often Catholic) and Arminians. Maintains libertarian free will while affirming that God's middle knowledge makes election certain without determining choices. Less popular than classical Molinism among Evangelicals but growing in academic circles."
+			},
       {
         name: "Classical Arminianism",
         spectrum: 50,
@@ -264,6 +273,15 @@ const categories = [
         proponents: "Jacobus Arminius, Simon Episcopius, the Five Articles of Remonstrance (1610)",
         notes: "Arminius himself was closer to Reformed theology than his followers. He affirmed total depravity and the necessity of prevenient grace — he was not a semi-Pelagian. The Remonstrance (1610) defines the classical position. Condemned at the Synod of Dort (1618–19)."
       },
+			{
+ 			name: "Wesleyan Molinism",
+ 			spectrum: 55,
+ 			tags: ["Methodist", "Wesleyan", "Molinist"],
+ 			summary: "Combines Wesley's emphasis on universal prevenient grace with Molinist middle knowledge. God's prevenient grace (sufficient for all to respond) operates through middle knowledge — God ordains the circumstances and grace that will lead free creatures to believe. Maintains both Wesley's optimism about grace's availability and Molina's confidence in God's sovereignty.",
+ 			key_texts: ["1 Tim 2:4", "Titus 2:11", "Rom 8:29–30"],
+ 			proponents: "Some contemporary Wesleyan scholars exploring Molinist frameworks; emerging position",
+ 			notes: "A relatively new synthesis not widely systematized yet. Addresses the Wesleyan tension between 'universal grace is available' and 'we still need to explain how God ensures his purposes' by using middle knowledge. Still experimental in Methodist theology but represents an attempt to give Wesleyanism more robust metaphysical grounding."
+			},
       {
         name: "Wesleyan Arminianism",
         spectrum: 60,
