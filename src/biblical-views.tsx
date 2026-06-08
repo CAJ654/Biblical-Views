@@ -539,6 +539,15 @@ const categories = [
         proponents: "Catholic Magisterium, Churches of Christ, some Lutherans",
         notes: "Exceptions for 'baptism of desire' (Catholics) acknowledge extraordinary cases. Most Protestants reject this view."
       },
+			{
+  			name: "Spirit vs. Water Baptism",
+  			spectrum: 15,
+  			tags: ["Pentecostal", "Spirit Baptism", "Distinction"],
+  			summary: "Water baptism and Spirit baptism are two distinct sacraments. Water baptism is conversion initiation (believer's baptism). Spirit baptism is a subsequent work of the Holy Spirit, typically evidenced by speaking in tongues, that empowers for service and deeper sanctification. Both are necessary for full Christian experience.",
+  			key_texts: ["Acts 2:4", "Acts 19:1–6", "1 Cor 12:13", "Eph 5:18"],
+  			proponents: "Classical Pentecostals, Assemblies of God, Four Square churches",
+  			notes: "A distinctive Pentecostal doctrine. Most non-Pentecostal traditions hold that Spirit baptism and water baptism are coterminous (happen together at conversion). Pentecostalism insists on a second, empowering work of the Spirit as biblically normative."
+			},
       {
         name: "Paedobaptism (Covenant / Infant Baptism)",
         spectrum: 35,
@@ -548,15 +557,42 @@ const categories = [
         proponents: "Calvin, Westminster Standards, RC Sproul, Michael Horton",
         notes: "The historic majority view (Catholic, Orthodox, most Protestants until the Reformation's radical wing). Reformed paedobaptism is distinct from baptismal regeneration."
       },
+			{
+  			name: "Dual-Practice / Convergent View",
+  			spectrum: 55,
+  			tags: ["Charismatic", "Anglican", "Ecumenical"],
+  			summary: "Both infant baptism (paedobaptism) and believer's baptism are valid expressions, and congregations may practice both. Some members are baptized as infants and later confirm their faith; others come to faith as adults and are baptized then. Emphasis on the reality of Christ's work in baptism rather than the mode or subject.",
+  			key_texts: ["Matt 28:19", "Acts 2:38–39", "1 Cor 10:1–2"],
+  			proponents: "Some Anglican charismatics, ecumenical movements, some Methodist congregations",
+  			notes: "An attempt to honor both sacramental (paedobaptist) and believer's baptism traditions. Rare in practice but represents a irenic approach. More common in charismatic Anglican and Methodist contexts seeking unity."
+			},
+			{
+  			name: "Memorialism",
+  			spectrum: 70,
+  			tags: ["Baptist", "Zwinglian", "Many Evangelicals"],
+  			summary: "The bread and wine are symbols and memorials of Christ's sacrifice. Nothing physical or spiritual changes in the elements themselves. The Supper is an ordinance of remembrance and proclamation — a visible enactment of the Gospel for the congregation. Its power is in the believer's remembrance and faith, not in the Supper as a means of grace.",
+  			key_texts: ["Luke 22:19", "1 Cor 11:24–25", "1 Cor 11:26"],
+  			proponents: "Zwingli, most Baptists, many evangelical churches, seeker-sensitive churches",
+  			notes: "The dominant view in American evangelicalism. Criticized by Calvin and Reformed theologians for making the Supper 'too thin' and losing sight of genuine encounter with Christ. Proponents argue it preserves the sola fide principle and avoids sacramental confusion."
+			},
       {
         name: "Credobaptism (Believer's Baptism)",
-        spectrum: 85,
+        spectrum: 80,
         tags: ["Baptist", "Anabaptist", "Evangelical"],
         summary: "Baptism is only for those who have made a personal profession of faith — it is the believer's public declaration of salvation already received. It is ordinarily by immersion (the mode matching the Greek baptizō and symbolizing death/resurrection).",
         key_texts: ["Acts 2:41", "Acts 8:36–38", "Rom 6:3–4", "Matt 28:19"],
         proponents: "Anabaptists, Baptists, most Evangelicals globally",
         notes: "Mode is debated even among credobaptists: immersion, pouring (affusion), sprinkling (aspersion). Most Baptist traditions insist on immersion."
       },
+			{
+  			name: "Baptism for the Dead",
+  			spectrum: 90,
+  			tags: ["Latter-day Saint", "Mormon", "Fringe Christian"],
+  			summary: "Proxy baptism can be performed for deceased persons who did not receive baptism in life, allowing them a chance to accept salvation after death. The living are baptized on behalf of the dead as an ordinance of salvation. Common practice in LDS theology but rejected by mainstream Christianity as unbiblical.",
+  			key_texts: ["1 Cor 15:29 (referenced but interpreted differently)", "1 Pet 3:18–20 (interpreted by LDS)"],
+  			proponents: "The Church of Jesus Christ of Latter-day Saints (LDS/Mormon)",
+  			notes: "This view is essentially outside mainstream Christian theology and is included for completeness. 1 Corinthians 15:29 is the only NT reference and its meaning is debated even among scholars; mainstream Christianity does not interpret it as supporting proxy baptism for the dead. Most Christian traditions would place this beyond the pale of legitimate theological interpretation."
+			},
     ]
   },
   {
