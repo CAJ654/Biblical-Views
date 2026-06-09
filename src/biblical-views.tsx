@@ -16,7 +16,7 @@ const categories = [
         proponents: "Augustine, Aquinas, Calvin, Jonathan Edwards, Wayne Grudem",
         notes: "The majority historic view. Often distinguished between 'separation' and 'torment' emphases within ECT itself."
       },
-            {
+      {
         name: "The Divine Presence (River of Fire)",
         spectrum: 15,
         tags: ["Orthodox", "Historic", "Mystical"],
@@ -25,7 +25,6 @@ const categories = [
         proponents: "Isaac the Syrian, John Damascene, Alexandre Kalomiros, Vladimir Lossky",
         notes: "The prevailing view in Eastern Orthodoxy. It rejects the Western concept of God as a judge who inflicts external punitive physical torment, emphasizing instead that 'our God is a consuming fire' and that hell is the painful experience of being loved by a God you hate."
       },
-
       {
         name: "Purgatory",
         spectrum: 20,
@@ -35,7 +34,7 @@ const categories = [
         proponents: "Catholic Magisterium, Council of Trent, Council of Florence, Pope Benedict XVI (Spe Salvi)",
         notes: "Defined Catholic dogma. Eastern Orthodoxy affirms a similar intermediate state of purification — sometimes described through the controversial 'toll house' tradition — without systematizing it as Rome has. Most Protestants reject purgatory as unscriptural and as undermining the sufficiency of Christ's atonement. Luther's 95 Theses (1517) were a direct attack on the indulgence system built on purgatorial theology."
       },
-            {
+      {
         name: "Post-Mortem Evangelism (Second Chance)",
         spectrum: 45,
         tags: ["Evangelical", "Inclusivist", "Modern"],
@@ -44,7 +43,6 @@ const categories = [
         proponents: "Donald Bloesch, Gabriel Fackre, George MacDonald (in part)",
         notes: "Often criticized by traditionalists as undermining the urgency of earthly missionary work, but defended by proponents as the only way to reconcile God's universal desire for salvation (1 Tim 2:4) with the theological necessity of explicit faith in Christ (John 14:6)."
       },
-
       {
         name: "Immediate Annihilationism",
         spectrum: 55,
@@ -63,7 +61,7 @@ const categories = [
         proponents: "Edward Fudge, John Stott (tentatively), Clark Pinnock, Glenn Peoples, Rethinking Hell movement",
         notes: "The more common academic annihilationist position. Allows that 'destruction' follows a real judgment with proportional consequences — it answers the fairness objection by allowing degrees of punishment before extinction."
       },
-            {
+      {
         name: "Hopeful Universalism",
         spectrum: 85,
         tags: ["Catholic", "Mainline", "Nuanced"],
@@ -72,7 +70,6 @@ const categories = [
         proponents: "Hans Urs von Balthasar, Bishop Robert Barron, Karl Barth (arguably), Edith Stein",
         notes: "Famously articulated in Balthasar's landmark book 'Dare We Hope That All Men Be Saved?'. It carefully navigates the tension between Christ’s stark warnings of damnation (treated as real, catastrophic possibilities) and God's universal salvific will."
       },
-
       {
         name: "Universal Reconciliation (Universalism)",
         spectrum: 100,
@@ -81,7 +78,7 @@ const categories = [
         key_texts: ["Col 1:20", "1 Tim 2:4", "Rom 5:18–19", "1 Cor 15:22"],
         proponents: "Origen, Gregory of Nyssa, George MacDonald, Thomas Talbott, Robin Parry (Ilaria Ramelli)",
         notes: "Ranges from 'hopeful universalism' (Bell) to dogmatic. Eastern Orthodoxy has a stronger universalist stream than Western Christianity."
-      },
+      }
     ]
   },
   {
@@ -109,6 +106,15 @@ const categories = [
         notes: "Distinct from legalism — Torah is walked out by Spirit-empowered believers, not as a basis for justification. Broad spectrum from 'Jew-only' obligations to universal observance."
       },
       {
+        name: "Natural Law & The New Law",
+        spectrum: 30,
+        tags: ["Catholic", "Thomistic", "Patristic"],
+        summary: "The Mosaic Law contains timeless moral precepts that are expressions of 'Natural Law' — the divine order written on every human heart and accessible via reason. Christ fulfilled the Old Law and instituted the 'New Law' or 'Law of the Gospel,' which is the grace of the Holy Spirit received through faith and operating via charity. The ceremonial and civil codes of Israel are entirely dead, replaced by the sacramental life and authoritative guidance of the Church Magisterium.",
+        key_texts: ["Rom 2:14–15", "Matt 5:17", "John 13:34", "Gal 5:6"],
+        proponents: "Thomas Aquinas, Augustine, Catholic Magisterium (CCC 1950–1986)",
+        notes: "Differs from Reformed Covenant views by rooting the moral law in the cosmos/human reason (Natural Law) rather than an overarching federal covenant framework, and by placing the administration of the 'New Law' directly inside the Church's sacramental system."
+      },
+      {
         name: "Covenant Theology (3-Covenant)",
         spectrum: 40,
         tags: ["Reformed", "Presbyterian"],
@@ -117,7 +123,7 @@ const categories = [
         proponents: "Calvin, Westminster Standards, Heidelberg Catechism, RC Sproul",
         notes: "Distinguishes moral/ceremonial/civil law tripartite division. The Sabbath commandment remains binding (usually transferred to Sunday)."
       },
-			{
+      {
         name: "New Covenant Theology (NCT)",
         spectrum: 60,
         tags: ["Baptist", "Reformed Baptist"],
@@ -126,7 +132,7 @@ const categories = [
         proponents: "Tom Wells, Fred Zaspel, John Reisinger",
         notes: "Rejects the moral/ceremonial/civil tripartite split. The Decalogue is not directly binding; nine of ten commandments are re-issued in the NT (Sabbath is not)."
       },
-			{
+      {
         name: "Lutheran Law/Gospel Distinction",
         spectrum: 75,
         tags: ["Lutheran", "Two-Kingdom"],
@@ -138,12 +144,12 @@ const categories = [
       {
         name: "Antinomianism",
         spectrum: 96,
-        tags: ["Heretical (historically)", "Hyper-grace"],
+        tags: ["Heretical", "Hyper-grace"],
         summary: "Believers are entirely free from the moral law as a rule of life. Grace eliminates any obligatory role of law — including the Ten Commandments — for the Christian. Sanctification is purely Spirit-led with no legal framework.",
         key_texts: ["Rom 6:14", "Gal 5:18"],
         proponents: "Johannes Agricola (historical), some hyper-grace teachers",
         notes: "Condemned at the Council of Trent and by Luther. Most mainstream positions affirm law's role in conviction and sanctification even while rejecting it as a basis for justification."
-      },
+      }
     ]
   },
   {
@@ -161,10 +167,10 @@ const categories = [
         proponents: "J.N. Darby, C.I. Scofield, John Walvoord, Tim LaHaye, John MacArthur",
         notes: "The most popular view in American Evangelicalism. Originated with Darby in the 1830s; popularized through the Scofield Bible and Left Behind series."
       },
-            {
+      {
         name: "Partial Rapture",
         spectrum: 15,
-        tags: ["Dispensational variant", "Holiness", "Pentecostal roots"],
+        tags: ["Dispensational variant", "Holiness", "Pentecostal"],
         summary: "Only those believers who are spiritually mature, faithful, and actively watching for Christ's return will be taken in the Rapture. 'Carnal' or unfaithful Christians are left behind to endure the fires of the Tribulation as a necessary process of purification, and they may be caught up in subsequent 'waves' of raptures later in the period.",
         key_texts: ["Matt 24:40–42", "Luke 21:36", "Heb 9:28", "Rev 3:3"],
         proponents: "Robert Govett, G.H. Pember, J.A. Seiss, Watchman Nee (in part)",
@@ -197,7 +203,7 @@ const categories = [
         proponents: "George Ladd, Doug Moo, John Piper, N.T. Wright",
         notes: "The historic view of the church before Darby. Common in Reformed, Anglican, and many charismatic circles. Closer to pre-wrath than to pretrib — both views agree the church endures the Tribulation rather than being removed before it, and both ground this in 1 Thess 5:9 (the church is not appointed to wrath). The key distinction from pre-wrath is that post-trib eliminates the two-stage structure: the rapture and the Second Coming are the same moment, with believers rising to meet Christ in the air (apantēsis) as he descends — not being caught up and held while the bowls fall below."
       },
-            {
+      {
         name: "Preterist Tribulation (Completed)",
         spectrum: 95,
         tags: ["Preterist", "Postmillennial", "Amillennial"],
@@ -214,7 +220,7 @@ const categories = [
         key_texts: ["1 Thess 4:16–17", "Matt 24 (preterist)", "Rev 20"],
         proponents: "Augustine, Calvin, RC Sproul, Kim Riddlebarger",
         notes: "Dominant view historically and globally (outside American evangelicalism). The 'meeting in the air' (apantēsis) is a Greek idiom for going out to greet a returning dignitary."
-      },
+      }
     ]
   },
   {
@@ -223,7 +229,7 @@ const categories = [
     title: "The Millennium",
     question: "What is the nature of Christ's 1,000-year reign?",
     views: [
-			{
+      {
         name: "Dispensational Premillennialism",
         spectrum: 0,
         tags: ["Dispensational", "Popular Evangelical"],
@@ -232,7 +238,7 @@ const categories = [
         proponents: "Darby, Scofield, Walvoord, Ryrie, Tim LaHaye",
         notes: "The dominant view in American evangelical seminaries for much of the 20th century. Replaced largely by progressive dispensationalism in academic circles."
       },
-            {
+      {
         name: "Progressive Dispensational Premillennialism",
         spectrum: 10,
         tags: ["Dispensational", "Academic Evangelical", "Already/Not Yet"],
@@ -250,10 +256,10 @@ const categories = [
         proponents: "Justin Martyr, Irenaeus, George Ladd, Wayne Grudem",
         notes: "Distinguished from Dispensational Premillennialism by not requiring a pretrib rapture or a restored Mosaic temple system."
       },
-            {
+      {
         name: "Theonomic Postmillennialism (Christian Reconstruction)",
         spectrum: 70,
-        tags: ["Reformed", "Theonomic", "Political/Cultural Transformation"],
+        tags: ["Reformed", "Theonomic", "Socio-Political"],
         summary: "The Millennium is not merely a spiritual reality or a product of evangelistic revival alone, but a comprehensive socio-political transformation of the earth. As the Gospel spreads, biblical law (theonomy) will progressively be adopted by civil governments, leading to Christianized nations, the subjugation of Christ's enemies, and worldwide institutional prosperity *prior* to Christ's physical return.",
         key_texts: ["Matt 28:18–20", "Ps 110:1", "Gen 1:28", "1 Cor 15:24–25"],
         proponents: "R.J. Rushdoony, Greg Bahnsen, Gary North, Doug Wilson",
@@ -262,13 +268,13 @@ const categories = [
       {
         name: "Postmillennialism",
         spectrum: 85,
-        tags: ["Reformed", "Reconstructionist", "Optimistic"],
+        tags: ["Reformed", "Optimistic", "Cultural Transformation"],
         summary: "The millennium is a future golden age brought about by the spread of the Gospel before Christ returns. The church gradually Christianizes society and culture; Christ returns after (post) this period of kingdom flourishing.",
         key_texts: ["Matt 28:18–20", "Ps 72", "Isa 2:2–4", "Rom 11:12"],
         proponents: "Jonathan Edwards, Charles Hodge, B.B. Warfield, RC Sproul Jr., Doug Wilson",
         notes: "Was common among 19th-century Reformed scholars. Declined after WWI. Revived by the Christian Reconstruction movement. Optimistic about history and cultural transformation."
       },
-			{
+      {
         name: "Amillennialism",
         spectrum: 100,
         tags: ["Reformed", "Lutheran", "Catholic", "Orthodox"],
@@ -276,7 +282,7 @@ const categories = [
         key_texts: ["Rev 20:1–6", "John 12:31", "Col 1:13"],
         proponents: "Augustine, Luther, Calvin, Bavinck, RC Sproul, Anthony Hoekema",
         notes: "The dominant view historically and globally. 'Amil' does not mean 'no millennium' but 'no literal future earthly 1,000 years.'"
-      },
+      }
     ]
   },
   {
@@ -321,15 +327,24 @@ const categories = [
         proponents: "Luis de Molina, Alvin Plantinga, William Lane Craig, Thomas Flint",
         notes: "Attempts to fully reconcile Calvinist sovereignty and Arminian freedom. Critiqued from both sides — Calvinists say middle knowledge is incoherent or limits God; Arminians say it smuggles in soft determinism. Dominant in Jesuit theology."
       },
-			{
- 				name: "Molinist Arminianism",
- 				spectrum: 40,
- 				tags: ["Molinist", "Arminian", "Some Evangelical"],
- 				summary: "God possesses middle knowledge of all counterfactuals of creaturely freedom — what any free creature would freely choose in any circumstance. Election is based on God's foreknowledge of who would freely believe, but God's omniscience guarantees the outcome. Combines Arminian free will with confidence in God's sovereignty through middle knowledge.",
- 				key_texts: ["Rom 8:29", "Matt 11:21–23", "1 Sam 23:10–13"],
- 				proponents: "Alvin Plantinga, William Lane Craig, Thomas Flint, some contemporary Arminians",
- 				notes: "A bridge position between classical Molinians (who are often Catholic) and Arminians. Maintains libertarian free will while affirming that God's middle knowledge makes election certain without determining choices. Less popular than classical Molinism among Evangelicals but growing in academic circles."
-			},
+      {
+        name: "Molinist Arminianism",
+        spectrum: 40,
+        tags: ["Molinist", "Arminian", "Evangelical"],
+        summary: "God possesses middle knowledge of all counterfactuals of creaturely freedom — what any free creature would freely choose in any circumstance. Election is based on God's foreknowledge of who would freely believe, but God's omniscience guarantees the outcome. Combines Arminian free will with confidence in God's sovereignty through middle knowledge.",
+        key_texts: ["Rom 8:29", "Matt 11:21–23", "1 Sam 23:10–13"],
+        proponents: "Alvin Plantinga, William Lane Craig, Thomas Flint, some contemporary Arminians",
+        notes: "A bridge position between classical Molinians (who are often Catholic) and Arminians. Maintains libertarian free will while affirming that God's middle knowledge makes election certain without determining choices. Less popular than classical Molinism among Evangelicals but growing in academic circles."
+      },
+      {
+        name: "Theosis / Eastern Synergism",
+        spectrum: 45,
+        tags: ["Orthodox", "Eastern", "Patristic"],
+        summary: "Salvation is not primarily a legal or forensic justification, but a lifelong process of transformation into the likeness of God (Theosis/Deification). Humanity inherited Adam's mortality and corrupted environment, but not his personal guilt. Salvation requires synergism — a continuous, free cooperation between divine grace and human will. Through the sacraments and ascetic life, believers become 'partakers of the divine nature.'",
+        key_texts: ["2 Pet 1:4", "Phil 2:12–13", "Rom 8:29", "Ps 82:6"],
+        proponents: "Athanasius, Gregory Palamas, Vladimir Lossky",
+        notes: "Sits outside the Western Calvinist/Arminian framework. While synergistic, it strongly rejects semi-Pelagianism because human effort is seen as entirely dependent upon and enveloped by uncreated divine energy, rather than an independent human initiative."
+      },
       {
         name: "Classical Arminianism",
         spectrum: 50,
@@ -339,15 +354,15 @@ const categories = [
         proponents: "Jacobus Arminius, Simon Episcopius, the Five Articles of Remonstrance (1610)",
         notes: "Arminius himself was closer to Reformed theology than his followers. He affirmed total depravity and the necessity of prevenient grace — he was not a semi-Pelagian. The Remonstrance (1610) defines the classical position. Condemned at the Synod of Dort (1618–19)."
       },
-			{
- 			name: "Wesleyan Molinism",
- 			spectrum: 55,
- 			tags: ["Methodist", "Wesleyan", "Molinist"],
- 			summary: "Combines Wesley's emphasis on universal prevenient grace with Molinist middle knowledge. God's prevenient grace (sufficient for all to respond) operates through middle knowledge — God ordains the circumstances and grace that will lead free creatures to believe. Maintains both Wesley's optimism about grace's availability and Molina's confidence in God's sovereignty.",
- 			key_texts: ["1 Tim 2:4", "Titus 2:11", "Rom 8:29–30"],
- 			proponents: "Some contemporary Wesleyan scholars exploring Molinist frameworks; emerging position",
- 			notes: "A relatively new synthesis not widely systematized yet. Addresses the Wesleyan tension between 'universal grace is available' and 'we still need to explain how God ensures his purposes' by using middle knowledge. Still experimental in Methodist theology but represents an attempt to give Wesleyanism more robust metaphysical grounding."
-			},
+      {
+        name: "Wesleyan Molinism",
+        spectrum: 55,
+        tags: ["Methodist", "Wesleyan", "Molinist"],
+        summary: "Combines Wesley's emphasis on universal prevenient grace with Molinist middle knowledge. God's prevenient grace (sufficient for all to respond) operates through middle knowledge — God ordains the circumstances and grace that will lead free creatures to believe. Maintains both Wesley's optimism about grace's availability and Molina's confidence in God's sovereignty.",
+        key_texts: ["1 Tim 2:4", "Titus 2:11", "Rom 8:29–30"],
+        proponents: "Some contemporary Wesleyan scholars exploring Molinist frameworks",
+        notes: "A relatively new synthesis not widely systematized yet. Addresses the Wesleyan tension between 'universal grace is available' and 'we still need to explain how God ensures his purposes' by using middle knowledge. Still experimental in Methodist theology but represents an attempt to give Wesleyanism more robust metaphysical grounding."
+      },
       {
         name: "Wesleyan Arminianism",
         spectrum: 60,
@@ -369,7 +384,7 @@ const categories = [
       {
         name: "Semi-Pelagianism",
         spectrum: 80,
-        tags: ["Condemned (Council of Orange)", "Popular Folk Christianity"],
+        tags: ["Condemned", "Popular Folk Christianity"],
         summary: "Human beings, though weakened by the Fall, retain enough natural capacity to make the first move toward God — to seek, inquire, or will toward salvation — and God's grace then responds to and assists that initial human initiative. Grace cooperates with natural human effort.",
         key_texts: ["Deut 4:29", "Jer 29:13", "Acts 17:27"],
         proponents: "John Cassian (historically), much of popular evangelical preaching implicitly",
@@ -383,7 +398,7 @@ const categories = [
         key_texts: ["Deut 30:19", "Sir 15:14–17 (Apocrypha)"],
         proponents: "Pelagius (c. 354–418), Caelestius",
         notes: "Condemned at the Council of Carthage (418 AD) and the Council of Ephesus (431 AD). Augustine's polemics against Pelagius shaped the entire Western doctrine of grace. Almost no one consciously holds this position today, though critics apply the label to semi-Pelagianism."
-      },
+      }
     ]
   },
   {
@@ -429,14 +444,32 @@ const categories = [
         notes: "Strongly affirms Jewish continuity and calling. Critiques both supersessionism and dispensationalism. Sees the modern state of Israel as theologically significant but not uncritically."
       },
       {
+        name: "Progressive Dispensationalism",
+        spectrum: 75,
+        tags: ["Dispensational", "Academic Evangelical"],
+        summary: "Rejects the classic view that Israel and the Church are two entirely distinct peoples with separate eternal destinies. Instead, they are two complementary phases of a single, unified plan of redemption. However, God's covenant promises regarding national, ethnic, and land restoration for Israel remain literal and will be fulfilled in the future millennial kingdom.",
+        key_texts: ["Acts 2:29–36", "Rom 11:25–29", "Eph 3:5–6"],
+        proponents: "Craig Blaising, Darrell Bock, Robert Saucy",
+        notes: "A major modern shift in academic dispensationalism that softens the sharp dichotomies of Scofield and Darby, moving closer to an 'already/not yet' kingdom model while preserving a future for national Israel."
+      },
+      {
         name: "Classic Dispensationalism",
         spectrum: 85,
         tags: ["Dispensational", "Popular Evangelical"],
         summary: "Israel and the Church are two distinct peoples of God with separate programs, destinies, and covenants. OT promises to Israel are literal and will be literally fulfilled in a restored Jewish kingdom. The church is a 'parenthesis' in God's primary plan for Israel.",
         key_texts: ["Rom 11", "Ezek 36–37", "Dan 9", "Zech 14"],
         proponents: "Darby, Scofield, Chafer, Walvoord",
-        notes: "Progressive Dispensationalism (Blaising, Bock) has softened the hard Israel/Church distinction significantly."
+        notes: "The foundational framework for the Left Behind eschatological boom. Insists that God's clock for Israel stops during the church age and resumes only after the rapture."
       },
+      {
+        name: "Dual-Covenant Theology",
+        spectrum: 100,
+        tags: ["Mainline Protestant", "Liberal Catholic", "Post-Holocaust"],
+        summary: "God's covenant with the Jewish people through Abraham and Moses is eternal, never broken, and fully sufficient for their salvation. Jesus Christ instituted a new covenant intended exclusively for the Gentile nations. Therefore, Jewish people do not need to accept Jesus or convert to Christianity to be reconciled to God, and Christian missionary targets should exclude Jews.",
+        key_texts: ["Rom 11:29", "Gen 17:7", "John 4:22"],
+        proponents: "Franz Rosenzweig, Reinhold Niebuhr, various post-Vatican II mainline statements",
+        notes: "Gained significant traction among Western mainline denominations following the Holocaust as a rejection of historic anti-Semitism. Heavily criticized by both traditional evangelicals and Messianic Jews for undermining the absolute exclusivity claims of Jesus in John 14:6."
+      }
     ]
   },
   {
@@ -459,9 +492,9 @@ const categories = [
         spectrum: 10,
         tags: ["Young Earth", "Minority", "Philosophical"],
         summary: "God created the universe recently but with a fully formed apparent history — light from distant stars already en route, geological strata already layered, trees already ringed. The universe looks old because it was created mature and functional, not because it actually is old. As Adam was created as an adult rather than an infant, so the cosmos was created 'aged.'",
-        key_texts: ["Gen 1–2", "John 2:1–11 (water to wine — mature instantly)", "Ps 33:9"],
-        proponents: "Philip Henry Gosse (Omphalos, 1857), some modern YEC apologists",
-        notes: "Named after Gosse's 1857 book Omphalos (Greek for 'navel' — Adam was created with a belly button despite never being in a womb). The strongest objection is theological: it makes God appear deceptive, embedding false historical signals into creation. Charles Kingsley famously rejected it on those grounds. Most YECs prefer to dispute radiometric dating assumptions rather than concede apparent age. The hypothesis is technically unfalsifiable — any evidence for an old universe is simply reframed as created appearance."
+        key_texts: ["Gen 1–2", "John 2:1–11", "Ps 33:9"],
+        proponents: "Philip Henry Gosse, some modern YEC apologists",
+        notes: "Named after Gosse's 1857 book Omphalos (Greek for 'navel'). The strongest objection is theological: it makes God appear deceptive by embedding false signals. Most YECs prefer to dispute dating assumptions rather than concede apparent age. The hypothesis is technically unfalsifiable."
       },
       {
         name: "Gap Theory",
@@ -491,14 +524,23 @@ const categories = [
         notes: "Allows complete compatibility with any scientific timeline. Influential in Reformed seminaries. Focuses on ancient Near Eastern literary genre."
       },
       {
-        name: "Theistic Evolution",
+        name: "Functional Creation (Cosmic Temple Inauguration)",
+        spectrum: 78,
+        tags: ["Evangelical Academic", "Ancient Near East Context"],
+        summary: "Genesis 1 is not an account of material origins (how physical matter came into existence), but an account of functional origins. In the ancient Near Eastern mindset, something did not 'exist' until it had a role or function within an ordered system. The six days describe God assigning functions to the already existing material cosmos, turning the universe into His sacred Temple, culminating on Day 7 when He 'rests' to inhabit and rule it.",
+        key_texts: ["Gen 1:1–2", "Isa 66:1", "Ps 132:7–8/14"],
+        proponents: "John H. Walton (The Lost World of Genesis One), N.T. Wright (in part)",
+        notes: "A major modern shift in evangelical hermeneutics. By separating the biblical text from questions of material ontology, it renders the biblical account completely neutral toward modern scientific questions regarding the age of the earth or biological evolution, arguing Genesis simply isn't answering those questions."
+      },
+      {
+        name: "Evolutionary Creation (Theistic Evolution)",
         spectrum: 95,
         tags: ["Mainline Protestant", "Catholic", "BioLogos"],
         summary: "God created through the natural process of evolution. Common descent of all life, including humans, is affirmed. God's action was through natural processes he designed and sustains. Genesis is read as ancient cosmological myth conveying theological truth.",
         key_texts: ["Rom 1:20", "Ps 19:1", "Gen 1–2 (literary)"],
         proponents: "BioLogos (Francis Collins, Scot McKnight, Pete Enns), Karl Giberson",
-        notes: "Spectrum within: some affirm a historical Adam (genealogical Adam hypothesis — S. Joshua Swamidass); others see Adam as archetypal, not historical."
-      },
+        notes: "Spectrum within: some affirm a historical Adam (genealogical Adam hypothesis — S. Joshua Swamidass); others see Adam as archetypal, not historical. Proponents increasingly prefer 'Evolutionary Creation' over 'Theistic Evolution' to emphasize creation as the primary noun."
+      }
     ]
   },
   {
@@ -516,69 +558,78 @@ const categories = [
         proponents: "B.B. Warfield, John MacArthur, RC Sproul, Richard Gaffin",
         notes: "Soft cessationism (gifts became rare) vs. hard cessationism (gifts completely ceased). MacArthur's Strange Fire conference (2013) represents the hard cessationist position."
       },
-			{
- 				name: "Functional Cessationism",
- 				spectrum: 5,
- 				tags: ["Reformed", "Evangelical", "Practical"],
- 				summary: "Sign gifts theoretically continue but are functionally absent from the church in practice. God *could* grant them but rarely or never does. The focus is on the sufficiency of Scripture and the Word rather than expectation of miraculous gifts. A pragmatic position between hard cessationism and continuationism.",
- 				key_texts: ["1 Cor 13:8–10", "Heb 2:3–4", "2 Tim 3:16–17"],
- 				proponents: "Some Reformed evangelicals, moderate cessationists",
- 				notes: "Avoids the logical problem of hard cessationism (why would God prohibit gifts?) while maintaining skepticism toward charismatic practice. Often held by those sympathetic to continuationism theologically but unconvinced by modern charismatic manifestations."
-			},
-			{
- 				name: "Mild/Historical Cessationism",
- 				spectrum: 15,
- 				tags: ["Moderate", "Evangelical"],
- 				summary: "Sign gifts were meant to authenticate the apostolic message and gradually ceased as the canon closed and the apostolic office ended. However, God is not bound by this pattern and *could* grant exceptional gifts in extraordinary circumstances. Less dogmatic than hard cessationism; leaves room for rare divine exceptions.",
- 				key_texts: ["1 Cor 13:8–10", "Heb 2:3–4", "Eph 2:20"],
- 				proponents: "D.A. Carson, some Presbyterian and evangelical scholars",
- 				notes: "A softer version of cessationism that acknowledges the biblical gifts were real and normative for the apostolic era, but maintains skepticism about their continuation. Distinguished from hard cessationism by not insisting God could never grant them today."
-			},
-			{
- 				name: "The Analogous Gifts Framework",
- 				spectrum: 35,
- 				tags: ["Continuationist", "Evangelical"],
- 				summary: "Sign gifts continue but in *analogous* rather than identical forms. Modern prophecy is not the same as OT/apostolic prophecy — it is fallible, congregational, and subject to testing. Tongues operate but with stricter guidelines. Healing happens but through prayer and means, not word-of-faith declarations. Maintains continuationism while addressing historical abuses.",
- 				key_texts: ["1 Cor 14:29–32 (testing prophecy)", "1 Thess 5:19–21", "1 John 4:1"],
- 				proponents: "Wayne Grudem, Sam Storms, some thoughtful charismatics",
- 				notes: "A mediating position that takes seriously both the biblical precedent for gifts and the need for guardrails against abusive practice. Argues the substance of gifts continues but the form may be adapted to the New Covenant context."
-			},
-			{
+      {
+        name: "Functional Cessationism",
+        spectrum: 5,
+        tags: ["Reformed", "Evangelical", "Practical"],
+        summary: "Sign gifts theoretically continue but are functionally absent from the church in practice. God *could* grant them but rarely or never does. The focus is on the sufficiency of Scripture and the Word rather than expectation of miraculous gifts. A pragmatic position between hard cessationism and continuationism.",
+        key_texts: ["1 Cor 13:8–10", "Heb 2:3–4", "2 Tim 3:16–17"],
+        proponents: "Some Reformed evangelicals, moderate cessationists",
+        notes: "Avoids the logical problem of hard cessationism (why would God prohibit gifts?) while maintaining skepticism toward charismatic practice. Often held by those sympathetic to continuationism theologically but unconvinced by modern charismatic manifestations."
+      },
+      {
+        name: "Mild/Historical Cessationism",
+        spectrum: 15,
+        tags: ["Moderate", "Evangelical"],
+        summary: "Sign gifts were meant to authenticate the apostolic message and gradually ceased as the canon closed and the apostolic office ended. However, God is not bound by this pattern and *could* grant exceptional gifts in extraordinary circumstances. Less dogmatic than hard cessationism; leaves room for rare divine exceptions.",
+        key_texts: ["1 Cor 13:8–10", "Heb 2:3–4", "Eph 2:20"],
+        proponents: "D.A. Carson, some Presbyterian and evangelical scholars",
+        notes: "A softer version of cessationism that acknowledges the biblical gifts were real and normative for the apostolic era, but maintains skepticism about their continuation. Distinguished from hard cessationism by not insisting God could never grant them today."
+      },
+      {
+        name: "The Analogous Gifts Framework",
+        spectrum: 35,
+        tags: ["Continuationist", "Evangelical"],
+        summary: "Sign gifts continue but in *analogous* rather than identical forms. Modern prophecy is not the same as OT/apostolic prophecy — it is fallible, congregational, and subject to testing. Tongues operate but with stricter guidelines. Healing happens but through prayer and means, not word-of-faith declarations. Maintains continuationism while addressing historical abuses.",
+        key_texts: ["1 Cor 14:29–32", "1 Thess 5:19–21", "1 John 4:1"],
+        proponents: "Wayne Grudem, Sam Storms",
+        notes: "A mediating position serving as the primary academic mechanism to defend standard Continuationism without threatening a closed biblical canon. It argues that the underlying spiritual substance of the gifts persists while structural forms have adapted following the apostolic era."
+      },
+      {
+        name: "Sacramental Miracularism / Historic Continuity",
+        spectrum: 45,
+        tags: ["Catholic", "Orthodox", "Historical"],
+        summary: "Rejects both Protestant Cessationism and modern Pentecostalism. The supernatural and miraculous have never ceased in the Church and are deeply woven into its sacramental and mystical life. However, this is manifested through the intercession of the saints, Marian apparitions, incorruptible relics, stigmata, and miraculous healings (such as at Lourdes), rather than conversational tongues or congregational prophecy. The ultimate miracle is the Eucharistic transformation.",
+        key_texts: ["Mark 16:17–18", "John 14:12", "James 5:14–15"],
+        proponents: "Augustine (in his later writings), Thomas Aquinas, Catholic/Orthodox Magisterium",
+        notes: "While affirming the continuous presence of the miraculous throughout church history, it maintains strict institutional vetting procedures for miracles and treats private revelations or apparitions as non-binding on the global dogmatic faith of believers."
+      },
+      {
         name: "Open But Cautious",
         spectrum: 50,
         tags: ["Moderate Evangelical"],
         summary: "The gifts may continue today but the charismatic movement as practiced raises serious concerns about abuse, confusion, and unbiblical practices. Openness to genuine gifts with strong skepticism toward specific charismatic expressions.",
         key_texts: ["1 Thess 5:19–21", "1 Cor 14:40"],
-        proponents: "D.A. Carson, Doug Moo (position spectrum)",
+        proponents: "D.A. Carson, Doug Moo",
         notes: "A cautious middle ground. Not strictly cessationist but not enthusiastically continuationist. Emphasizes the need for careful discernment."
       },
-			{
- 				name: "Pentecostalism / Classic Charismatic View",
- 				spectrum: 60,
- 				tags: ["Pentecostal", "Charismatic", "Continuationist"],
- 				summary: "All the gifts of the Spirit, including tongues, prophecy, healing, and words of knowledge, continue in full operation today as they did in Acts. Spirit baptism (a second distinct experience from conversion) is normative and often evidenced by speaking in tongues. Gifts are given for the edification of the church and the advancement of the kingdom.",
- 				key_texts: ["1 Cor 12–14", "Acts 2:4", "Acts 19:1–6", "Mark 16:17–18"],
- 				proponents: "Foursquare, Assemblies of God, Church of God in Christ, Kathryn Kuhlman, Aimee Semple McPherson",
- 				notes: "The classical Pentecostal position emphasizing Spirit baptism as normative and tongues as initial evidence. Distinct from later charismatic renewal (which emphasizes gifts without necessarily the Spirit baptism doctrine) and from Word of Faith (which adds prosperity teaching)."
-			},
-			{
- 				name: "The Third Wave Movement",
- 				spectrum: 70,
- 				tags: ["Charismatic", "Vineyard", "Signs & Wonders"],
- 				summary: "The Holy Spirit's power and gifts (especially healing, prophecy, deliverance) are actively operative today and should be expected in ministry and evangelism. Emphasizes 'power evangelism' — demonstrating the kingdom through supernatural signs. Less focused on glossolalia than classical Pentecostalism; more focused on healings and prophetic words.",
- 				key_texts: ["Luke 10:9", "1 Cor 12:7–11", "Mark 16:17–20"],
- 				proponents: "John Wimber, C. Peter Wagner, Vineyard churches, contemporary renewal movements",
- 				notes: "Called 'Third Wave' because it follows first-wave Pentecostalism and second-wave Charismatic Renewal. Emphasizes kingdom power and practical demonstration over doctrinal distinctives like Spirit baptism. Very influential in contemporary worship and healing prayer."
-			},
-			{
- 				name: "Hyper-Charismatic / Word of Faith View",
- 				spectrum: 90,
- 				tags: ["Prosperity Gospel", "Word of Faith", "Controversial"],
- 				summary: "Believers have authority and power to command supernatural results through spoken faith declarations. Sickness and poverty are always the will of Satan, never God's will. Speaking things into existence, 'name it and claim it,' decreeing prosperity and healing — these are seen as proper exercise of believer's authority. Gifts are primarily for personal benefit and material blessing.",
- 				key_texts: ["Mark 11:24 (interpreted loosely)", "Prov 23:7", "3 John 2"],
- 				proponents: "Kenneth Copeland, Joyce Meyer, Creflo Dollar, Benny Hinn",
- 				notes: "Widely critiqued even by charismatics and continuationists for theological errors (conflating believer's authority with divine sovereignty, prosperity as salvific sign). Many evangelical leaders explicitly reject this as distorting Scripture. The most extreme and problematic expression of charismatic theology."
-			},
+      {
+        name: "Pentecostalism / Classic Charismatic View",
+        spectrum: 60,
+        tags: ["Pentecostal", "Charismatic", "Continuationist"],
+        summary: "All the gifts of the Spirit, including tongues, prophecy, healing, and words of knowledge, continue in full operation today as they did in Acts. Spirit baptism (a second distinct experience from conversion) is normative and often evidenced by speaking in tongues. Gifts are given for the edification of the church and the advancement of the kingdom.",
+        key_texts: ["1 Cor 12–14", "Acts 2:4", "Acts 19:1–6", "Mark 16:17–18"],
+        proponents: "Foursquare, Assemblies of God, Church of God in Christ, Kathryn Kuhlman, Aimee Semple McPherson",
+        notes: "The classical Pentecostal position emphasizing Spirit baptism as normative and tongues as initial evidence. Distinct from later charismatic renewal (which emphasizes gifts without necessarily the Spirit baptism doctrine) and from Word of Faith (which adds prosperity teaching)."
+      },
+      {
+        name: "The Third Wave Movement",
+        spectrum: 70,
+        tags: ["Charismatic", "Vineyard", "Signs & Wonders"],
+        summary: "The Holy Spirit's power and gifts (especially healing, prophecy, deliverance) are actively operative today and should be expected in ministry and evangelism. Emphasizes 'power evangelism' — demonstrating the kingdom through supernatural signs. Less focused on glossolalia than classical Pentecostalism; more focused on healings and prophetic words.",
+        key_texts: ["Luke 10:9", "1 Cor 12:7–11", "Mark 16:17–20"],
+        proponents: "John Wimber, C. Peter Wagner, Vineyard churches",
+        notes: "Called 'Third Wave' because it follows first-wave Pentecostalism and second-wave Charismatic Renewal. Emphasizes kingdom power and practical demonstration over doctrinal distinctives like Spirit baptism. Very influential in contemporary worship and healing prayer."
+      },
+      {
+        name: "Hyper-Charismatic / Word of Faith View",
+        spectrum: 90,
+        tags: ["Prosperity Gospel", "Word of Faith", "Controversial"],
+        summary: "Believers have authority and power to command supernatural results through spoken faith declarations. Sickness and poverty are always the will of Satan, never God's will. Speaking things into existence, 'name it and claim it,' decreeing prosperity and healing — these are seen as proper exercise of believer's authority. Gifts are primarily for personal benefit and material blessing.",
+        key_texts: ["Mark 11:24", "Prov 23:7", "3 John 2"],
+        proponents: "Kenneth Copeland, Joyce Meyer, Creflo Dollar, Benny Hinn",
+        notes: "Widely critiqued even by charismatics and continuationists for theological errors (conflating believer's authority with divine sovereignty, prosperity as salvific sign). Many evangelical leaders explicitly reject this as distorting Scripture. The most extreme and problematic expression of charismatic theology."
+      },
       {
         name: "Continuationism",
         spectrum: 100,
@@ -587,78 +638,7 @@ const categories = [
         key_texts: ["1 Cor 12–14", "Acts 2:17–18", "Joel 2:28–29"],
         proponents: "Wayne Grudem, Sam Storms, Jack Deere, most of the global church",
         notes: "The majority view globally and historically. Differs from hyper-charismaticism by insisting gifts are tested against Scripture and are not ongoing revelation at the level of the canon."
-      },
-    ]
-  },
-  {
- id: "baptism",
-    icon: "💧",
-    title: "Baptism",
-    question: "Who should be baptized, and what does it do?",
-    views: [
-      {
-        name: "Baptismal Regeneration",
-        spectrum: 0,
-        tags: ["Catholic", "Lutheran (some)", "Church of Christ"],
-        summary: "Baptism is not merely symbolic — it actually confers grace and is ordinarily necessary for salvation. In Catholic theology, baptism removes original sin and infuses sanctifying grace. In Church of Christ theology, it is the moment of conversion.",
-        key_texts: ["John 3:5", "Acts 2:38", "Titus 3:5", "1 Pet 3:21"],
-        proponents: "Catholic Magisterium, Churches of Christ, some Lutherans",
-        notes: "Exceptions for 'baptism of desire' (Catholics) acknowledge extraordinary cases. Most Protestants reject this view."
-      },
-			{
-  			name: "Spirit vs. Water Baptism",
-  			spectrum: 15,
-  			tags: ["Pentecostal", "Spirit Baptism", "Distinction"],
-  			summary: "Water baptism and Spirit baptism are two distinct sacraments. Water baptism is conversion initiation (believer's baptism). Spirit baptism is a subsequent work of the Holy Spirit, typically evidenced by speaking in tongues, that empowers for service and deeper sanctification. Both are necessary for full Christian experience.",
-  			key_texts: ["Acts 2:4", "Acts 19:1–6", "1 Cor 12:13", "Eph 5:18"],
-  			proponents: "Classical Pentecostals, Assemblies of God, Four Square churches",
-  			notes: "A distinctive Pentecostal doctrine. Most non-Pentecostal traditions hold that Spirit baptism and water baptism are coterminous (happen together at conversion). Pentecostalism insists on a second, empowering work of the Spirit as biblically normative."
-			},
-      {
-        name: "Paedobaptism (Covenant / Infant Baptism)",
-        spectrum: 35,
-        tags: ["Reformed", "Presbyterian", "Lutheran", "Anglican"],
-        summary: "Baptism is the covenant sign of the New Covenant, corresponding to circumcision in the Old. Infants of believers are covenant members and should receive the sign. Baptism does not automatically regenerate but marks inclusion in the covenant community.",
-        key_texts: ["Col 2:11–12", "Gen 17:7", "Acts 2:39", "1 Cor 7:14"],
-        proponents: "Calvin, Westminster Standards, RC Sproul, Michael Horton",
-        notes: "The historic majority view (Catholic, Orthodox, most Protestants until the Reformation's radical wing). Reformed paedobaptism is distinct from baptismal regeneration."
-      },
-			{
-  			name: "Dual-Practice / Convergent View",
-  			spectrum: 55,
-  			tags: ["Charismatic", "Anglican", "Ecumenical"],
-  			summary: "Both infant baptism (paedobaptism) and believer's baptism are valid expressions, and congregations may practice both. Some members are baptized as infants and later confirm their faith; others come to faith as adults and are baptized then. Emphasis on the reality of Christ's work in baptism rather than the mode or subject.",
-  			key_texts: ["Matt 28:19", "Acts 2:38–39", "1 Cor 10:1–2"],
-  			proponents: "Some Anglican charismatics, ecumenical movements, some Methodist congregations",
-  			notes: "An attempt to honor both sacramental (paedobaptist) and believer's baptism traditions. Rare in practice but represents a irenic approach. More common in charismatic Anglican and Methodist contexts seeking unity."
-			},
-			{
-  			name: "Memorialism",
-  			spectrum: 70,
-  			tags: ["Baptist", "Zwinglian", "Many Evangelicals"],
-  			summary: "The bread and wine are symbols and memorials of Christ's sacrifice. Nothing physical or spiritual changes in the elements themselves. The Supper is an ordinance of remembrance and proclamation — a visible enactment of the Gospel for the congregation. Its power is in the believer's remembrance and faith, not in the Supper as a means of grace.",
-  			key_texts: ["Luke 22:19", "1 Cor 11:24–25", "1 Cor 11:26"],
-  			proponents: "Zwingli, most Baptists, many evangelical churches, seeker-sensitive churches",
-  			notes: "The dominant view in American evangelicalism. Criticized by Calvin and Reformed theologians for making the Supper 'too thin' and losing sight of genuine encounter with Christ. Proponents argue it preserves the sola fide principle and avoids sacramental confusion."
-			},
-      {
-        name: "Credobaptism (Believer's Baptism)",
-        spectrum: 80,
-        tags: ["Baptist", "Anabaptist", "Evangelical"],
-        summary: "Baptism is only for those who have made a personal profession of faith — it is the believer's public declaration of salvation already received. It is ordinarily by immersion (the mode matching the Greek baptizō and symbolizing death/resurrection).",
-        key_texts: ["Acts 2:41", "Acts 8:36–38", "Rom 6:3–4", "Matt 28:19"],
-        proponents: "Anabaptists, Baptists, most Evangelicals globally",
-        notes: "Mode is debated even among credobaptists: immersion, pouring (affusion), sprinkling (aspersion). Most Baptist traditions insist on immersion."
-      },
-			{
-  			name: "Baptism for the Dead",
-  			spectrum: 90,
-  			tags: ["Latter-day Saint", "Mormon", "Fringe Christian"],
-  			summary: "Proxy baptism can be performed for deceased persons who did not receive baptism in life, allowing them a chance to accept salvation after death. The living are baptized on behalf of the dead as an ordinance of salvation. Common practice in LDS theology but rejected by mainstream Christianity as unbiblical.",
-  			key_texts: ["1 Cor 15:29 (referenced but interpreted differently)", "1 Pet 3:18–20 (interpreted by LDS)"],
-  			proponents: "The Church of Jesus Christ of Latter-day Saints (LDS/Mormon)",
-  			notes: "This view is essentially outside mainstream Christian theology and is included for completeness. 1 Corinthians 15:29 is the only NT reference and its meaning is debated even among scholars; mainstream Christianity does not interpret it as supporting proxy baptism for the dead. Most Christian traditions would place this beyond the pale of legitimate theological interpretation."
-			},
+      }
     ]
   },
   {
@@ -676,7 +656,7 @@ const categories = [
         proponents: "Fourth Lateran Council, Council of Trent, Catholic Magisterium",
         notes: "Defined dogma of the Catholic Church using Aristotelian substance/accident metaphysics. Rejected at the Reformation."
       },
-            {
+      {
         name: "The Divine Mystery (Sacramental Realism)",
         spectrum: 12,
         tags: ["Orthodox", "Eastern", "Mystical"],
@@ -685,7 +665,6 @@ const categories = [
         proponents: "John Damascene, Nicholas Cabasilas, Eastern Orthodox Holy Synod",
         notes: "While sharing the same practical reverence for the elements as Roman Catholicism, Orthodoxy avoids dogmatic philosophical definitions. The ultimate purpose of the change is not an abstract miracle on the altar, but the transformation and deification (Theosis) of the believers who partake."
       },
-
       {
         name: "Consubstantiation / Sacramental Union",
         spectrum: 25,
@@ -695,7 +674,7 @@ const categories = [
         proponents: "Luther, Lutheran confessions, Formula of Concord",
         notes: "'Consubstantiation' is a term Lutherans sometimes reject as imprecise. The preferred Lutheran term is 'Real Presence' or 'sacramental union.'"
       },
-            {
+      {
         name: "Receptionism (Via Media)",
         spectrum: 45,
         tags: ["Anglican", "Methodist roots", "Moderate"],
@@ -707,7 +686,7 @@ const categories = [
       {
         name: "Spiritual / Calvinist Presence",
         spectrum: 60,
-        tags: ["Reformed", "Presbyterian", "Anglican (some)"],
+        tags: ["Reformed", "Presbyterian", "Anglican"],
         summary: "Christ is truly present in the Supper, but spiritually — not bodily. The glorified Christ at the Father's right hand is not locally present in the elements. By faith, believers truly feed on Christ spiritually through the Spirit as they eat and drink.",
         key_texts: ["1 Cor 10:16", "John 6:63", "Westminster Confession"],
         proponents: "Calvin, Westminster Standards, RC Sproul",
@@ -721,7 +700,7 @@ const categories = [
         key_texts: ["Luke 22:19", "1 Cor 11:26"],
         proponents: "Zwingli, most Baptists, many evangelical churches",
         notes: "The dominant view in American evangelicalism. Critics (including Calvin) felt Zwingli emptied the Supper of its power by making it purely cognitive."
-      },
+      }
     ]
   },
   {
@@ -731,8 +710,17 @@ const categories = [
     question: "What is Scripture's nature and its authority relative to tradition?",
     views: [
       {
-        name: "Sola Scriptura",
+        name: "Strict Inerrancy / Textual Verbal Plenary Inspiration",
         spectrum: 0,
+        tags: ["Fundamentalist", "Conservative Evangelical"],
+        summary: "Scripture is verbal-plenary inspired—every individual word was intentionally chosen by God through human authors. Consequently, the original autographs are absolutely inerrant, not only in matters of faith and salvation, but also in every statement regarding history, geography, and natural science. It must be interpreted using a literal, grammatical-historical hermeneutic.",
+        key_texts: ["2 Tim 3:16", "2 Pet 1:20–21", "Ps 19:7"],
+        proponents: "Chicago Statement on Biblical Inerrancy (1978), B.B. Warfield, Charles Hodge",
+        notes: "Formulated as a distinct dogmatic defense in the late 19th and early 20th centuries to combat the rise of European higher criticism. Rejects any entry of historical errors or mythological frameworks into the text."
+      },
+      {
+        name: "Sola Scriptura",
+        spectrum: 15,
         tags: ["Protestant", "Reformed", "Evangelical"],
         summary: "Scripture alone is the supreme, final, and infallible authority in all matters of faith and practice. Church tradition, creeds, and councils have authority only insofar as they conform to Scripture. The individual believer can in principle evaluate all teaching by the Bible.",
         key_texts: ["2 Tim 3:16–17", "Isa 8:20", "Acts 17:11"],
@@ -744,7 +732,7 @@ const categories = [
         spectrum: 35,
         tags: ["Wesleyan", "Some Anglican"],
         summary: "Scripture is the primary authority but not the only authority. Tradition, reason, and experience (Wesley's 'quadrilateral') all inform theology, with Scripture as first among equals. Church tradition has genuine authority but can be critiqued by Scripture.",
-        key_texts: ["2 Tim 3:16", "Acts 15 (council model)"],
+        key_texts: ["2 Tim 3:16", "Acts 15"],
         proponents: "John Wesley, Wesleyan tradition",
         notes: "Distinguished from Catholic view by maintaining Scripture's primacy. Distinguished from sola scriptura by giving tradition and reason formal (not just instrumental) authority."
       },
@@ -766,6 +754,15 @@ const categories = [
         proponents: "Eastern Orthodox churches, Greek Orthodox, Russian Orthodox",
         notes: "More holistic than Catholic view — less focus on a teaching Magisterium, more on the Spirit-guided consensus of the whole Church across time (sobornost)."
       },
+      {
+        name: "Liberal / Modernist Historical-Critical View",
+        spectrum: 100,
+        tags: ["Liberal", "Mainline Protestant", "Progressive"],
+        summary: "The Bible is not a divine oracle dictated by God, but a deeply human library of texts reflecting Israel's and the early Church's evolving historical experiences of the divine. It contains cultural biases, historical inaccuracies, and conflicting theological perspectives. Authority is found not in the absolute inerrancy of the text, but in its ability to inspire moral transformation and point toward justice and love.",
+        key_texts: ["2 Cor 3:6", "Luke 1:1–4"],
+        proponents: "Friedrich Schleiermacher, Rudolf Bultmann, Marcus Borg, John Shelby Spong",
+        notes: "Dominant in mainline Protestant academic circles since the late 19th century. Demythologizes supernatural events (like the virgin birth or physical resurrection) to focus on the ethical kernel of Jesus's teachings."
+      }
     ]
   },
   {
@@ -780,15 +777,24 @@ const categories = [
         tags: ["Reformed", "Southern Baptist", "Conservative Evangelical"],
         summary: "Men and women are equal in dignity and salvation but have complementary roles. In the home, the husband is the head; in the church, the offices of elder/pastor/overseer are restricted to qualified men. Women serve in many capacities but not in the authoritative teaching office.",
         key_texts: ["1 Tim 2:12–14", "1 Cor 14:34–35", "1 Tim 3:1–2", "Eph 5:22–24"],
-        proponents: "Wayne Grudem, John Piper, CBMW (Council on Biblical Manhood and Womanhood)",
+        proponents: "Wayne Grudem, John Piper, CBMW",
         notes: "Spectrum within: 'soft comp' (only senior pastor restricted) to 'hard comp' (women may not teach mixed adult classes). The CBMW Danvers Statement (1987) is the foundational document."
+      },
+      {
+        name: "Sacramental Complementarianism & Ascetic Equality",
+        spectrum: 8,
+        tags: ["Catholic", "Orthodox", "Patristic"],
+        summary: "Maintains a strict creational gender binary and restricts the sacramental priesthood exclusively to men, as the priest acts in persona Christi (in the person of Christ). However, it rejects structural domestic subordination models seen in extreme Protestantism. Through monasticism and the calling of virginity, women are freed from patriarchal domesticity, achieving spiritual equality and institutional authority as Abbesses, Mother Superiors, and revered Saints.",
+        key_texts: ["Gal 3:28", "Luke 10:41–42", "1 Cor 7:32–34"],
+        proponents: "John Paul II (Ordinatio Sacerdotalis), Thomas Aquinas, John Chrysostom",
+        notes: "Often misunderstood by Protestants because it pairs an unyielding ban on female ordination with a profound mystical elevation of women (especially the Virgin Mary/Theotokos). It views priesthood as a sacrificial burden rather than an exercise of political power."
       },
       {
         name: "Egalitarianism",
         spectrum: 20,
         tags: ["Evangelical", "Mainline Protestant", "CBE"],
         summary: "The Gospel restores the full equality of men and women in all roles including church leadership. Passages restricting women reflect cultural situations addressed by Paul, not timeless prescriptions. Women may serve as elders, pastors, and preachers.",
-        key_texts: ["Gal 3:28", "Joel 2:28–29", "Rom 16:7 (Junia)", "Acts 18:26"],
+        key_texts: ["Gal 3:28", "Joel 2:28–29", "Rom 16:7", "Acts 18:26"],
         proponents: "CBE International, N.T. Wright, Gordon Fee, Scot McKnight",
         notes: "Not secular feminism — grounded in a specific hermeneutic of redemptive movement within Scripture (Webb) or re-reading the key passages in their cultural context."
       },
@@ -798,16 +804,16 @@ const categories = [
         tags: ["Catholic", "Orthodox", "Conservative Evangelical"],
         summary: "Same-sex sexual activity is prohibited by Scripture in all circumstances. However, same-sex attraction itself is not sinful — it is a temptation to be resisted, not an identity to be affirmed. Gay and lesbian Christians are called to celibacy. Often called 'Side B' in LGBTQ Christian discourse.",
         key_texts: ["Gen 2:24", "Lev 18:22", "Rom 1:26–27", "1 Cor 6:9–11"],
-        proponents: "Catholic Magisterium, Eastern Orthodoxy, Sam Allberry, Rosaria Butterfield (partially), Christopher Yuan, Wesley Hill",
-        notes: "Rosaria Butterfield and others distinguish 'Side B' (celibacy affirmed, gay identity language rejected) from 'Side B+' (celibacy affirmed, gay identity language permitted). Wesley Hill's 'Spiritual Friendship' movement advocates deep covenantal same-sex friendships as a context for flourishing within celibacy."
+        proponents: "Sam Allberry, Wesley Hill",
+        notes: "Wesley Hill's 'Spiritual Friendship' movement advocates deep covenantal same-sex friendships as a context for flourishing within celibacy. Rosaria Butterfield has disavowed this movement and the 'gay Christian' identifier in her recent work, explicitly drawing a harder conservative boundary line."
       },
       {
         name: "Reparative / Change Therapy View",
         spectrum: 50,
         tags: ["Conservative Evangelical", "Controversial", "Minority"],
         summary: "Same-sex attraction is a disordered condition that can be reduced or redirected through prayer, counseling, or therapy. Some proponents claim significant change in orientation is possible for some individuals. Sexual orientation is understood as fluid rather than fixed.",
-        key_texts: ["1 Cor 6:11 ('such were some of you')", "Rom 12:2"],
-        proponents: "Exodus International (defunct), CHANGED movement, some conservative Catholic therapists",
+        key_texts: ["1 Cor 6:11", "Rom 12:2"],
+        proponents: "CHANGED movement, some conservative Catholic therapists",
         notes: "Exodus International closed in 2013 with its president publicly apologizing for harm caused. Most major psychological bodies (APA, AMA) consider attempts to change orientation ineffective and harmful. Distinct from Side B, which does not promise orientation change. Increasingly a minority position even among conservatives."
       },
       {
@@ -815,31 +821,35 @@ const categories = [
         spectrum: 65,
         tags: ["Progressive Evangelical", "Revisionist"],
         summary: "The biblical prohibitions address exploitative or idolatrous same-sex practices in the ancient world, not committed, monogamous same-sex relationships. A hermeneutic of redemptive movement within Scripture allows for affirming same-sex unions under the same framework as heterosexual marriage.",
-        key_texts: ["Gen 2:18 (loneliness)", "Ruth 1:16–17", "1 Sam 18:1–3", "Rom 1 (contextual)"],
-        proponents: "Matthew Vines, Ken Wilson, David Gushee (later), James Brownson",
-        notes: "Matthew Vines' God and the Gay Christian (2014) is the most widely read popular presentation. Critiqued by conservatives for special pleading and by progressives for still working within a broadly evangelical framework. The hermeneutical key is whether Paul's condemnations addressed orientation-based relationships or only exploitative ones."
+        key_texts: ["Gen 2:18", "Ruth 1:16–17", "1 Sam 18:1–3", "Rom 1"],
+        proponents: "Matthew Vines, Ken Wilson, David Gushee, James Brownson",
+        notes: "Matthew Vines' God and the Gay Christian (2014) is the most widely read popular presentation. Critiqued by conservatives for special pleading and by progressives for still working within a broadly evangelical framework. The hermeneutical key is whether Paul's概 condemnations addressed orientation-based relationships or only exploitative ones."
       },
       {
         name: "Full Affirmation",
         spectrum: 80,
-        tags: ["Mainline Protestant", "Progressive", "PCUSA", "UMC (some)"],
+        tags: ["Mainline Protestant", "Progressive"],
         summary: "Same-sex relationships, marriage, and LGBTQ identity (including transgender identity) are fully affirmed as consistent with Christian faith and the trajectory of Scripture. The church should celebrate and bless same-sex marriages and ordain LGBTQ clergy without restriction.",
-        key_texts: ["Gal 3:28", "Acts 10:28 (principle of inclusion)", "1 John 4:8"],
-        proponents: "PCUSA, Episcopal Church, UCC, some Methodist bodies, Nadia Bolz-Weber, Eugene Rogers",
-        notes: "Now the official position of several mainline denominations. The United Methodist Church split in 2024 partly over this question. The affirming position draws on the church's history of moral development on slavery and women's ordination as precedent for reconsidering sexual ethics."
+        key_texts: ["Gal 3:28", "Acts 10:28", "1 John 4:8"],
+        proponents: "Nadia Bolz-Weber, Eugene Rogers",
+        notes: "Now the official position of several mainline denominations. The United Methodist Church experienced a historic structural schism over this question. The affirming position draws on the church's history of moral development on slavery and women's ordination as precedent for reconsidering sexual ethics."
       },
       {
         name: "Transgender-Inclusive Theologies",
         spectrum: 100,
         tags: ["Progressive", "Academic", "Emerging"],
         summary: "Gender identity is not fixed by biological sex at birth. Transgender and non-binary identities are affirmed as valid expressions of human diversity and not contrary to Christian anthropology. Some theologians argue the biblical vision of 'male and female' is descriptive of diversity rather than prescriptive of rigid binary categories.",
-        key_texts: ["Gen 1:27 (re-read)", "Gal 3:28 ('neither male nor female')", "Isa 56:3–5 (eunuchs)"],
+        key_texts: ["Gen 1:27", "Gal 3:28", "Isa 56:3–5"],
         proponents: "Austen Hartke, Justin Sabia-Tanis, Virginia Ramey Mollenkott",
         notes: "The eunuch texts (Isa 56, Matt 19:12, Acts 8) are frequently cited as evidence that the Bible already envisions gender diversity beyond a strict binary. Conservative responses argue eunuchs are a category of biological sex variation, not gender identity. Most traditional and evangelical bodies reject transgender self-identification as contrary to creational design."
-      },
+      }
     ]
-  },
+  }
 ];
+
+  
+
+ 		
 
 const spectrumColors = [
   "#3b82f6", "#60a5fa", "#a78bfa", "#c084fc", "#f472b6", "#fb7185", "#f97316"
