@@ -16,6 +16,16 @@ const categories = [
         proponents: "Augustine, Aquinas, Calvin, Jonathan Edwards, Wayne Grudem",
         notes: "The majority historic view. Often distinguished between 'separation' and 'torment' emphases within ECT itself."
       },
+            {
+        name: "The Divine Presence (River of Fire)",
+        spectrum: 15,
+        tags: ["Orthodox", "Historic", "Mystical"],
+        summary: "Heaven and Hell are not two separate geographical locations, but two different subjective experiences of the exact same reality: the unmediated presence and infinite love of God. For those who love God, His presence is paradise; for those who have hardened their hearts against Him, His presence is an unescapable, tormenting fire. God inflicts no external torture; the suffering is entirely existential and self-inflicted.",
+        key_texts: ["Heb 12:29", "Ps 139:8", "Luke 2:34", "Rom 12:20"],
+        proponents: "Isaac the Syrian, John Damascene, Alexandre Kalomiros, Vladimir Lossky",
+        notes: "The prevailing view in Eastern Orthodoxy. It rejects the Western concept of God as a judge who inflicts external punitive physical torment, emphasizing instead that 'our God is a consuming fire' and that hell is the painful experience of being loved by a God you hate."
+      },
+
       {
         name: "Purgatory",
         spectrum: 20,
@@ -25,6 +35,16 @@ const categories = [
         proponents: "Catholic Magisterium, Council of Trent, Council of Florence, Pope Benedict XVI (Spe Salvi)",
         notes: "Defined Catholic dogma. Eastern Orthodoxy affirms a similar intermediate state of purification — sometimes described through the controversial 'toll house' tradition — without systematizing it as Rome has. Most Protestants reject purgatory as unscriptural and as undermining the sufficiency of Christ's atonement. Luther's 95 Theses (1517) were a direct attack on the indulgence system built on purgatorial theology."
       },
+            {
+        name: "Post-Mortem Evangelism (Second Chance)",
+        spectrum: 45,
+        tags: ["Evangelical", "Inclusivist", "Modern"],
+        summary: "Those who die without having a fair or explicit opportunity to hear and understand the Gospel of Jesus Christ in this life will be given a conscious opportunity to accept or reject Him in the intermediate state after death. Hell is reserved exclusively for those who explicitly and willfully reject Christ with full clarity, not those who died in ignorance.",
+        key_texts: ["1 Pet 3:18–20", "1 Pet 4:6", "Phil 2:10–11", "Acts 17:30"],
+        proponents: "Donald Bloesch, Gabriel Fackre, George MacDonald (in part)",
+        notes: "Often criticized by traditionalists as undermining the urgency of earthly missionary work, but defended by proponents as the only way to reconcile God's universal desire for salvation (1 Tim 2:4) with the theological necessity of explicit faith in Christ (John 14:6)."
+      },
+
       {
         name: "Immediate Annihilationism",
         spectrum: 55,
@@ -43,6 +63,16 @@ const categories = [
         proponents: "Edward Fudge, John Stott (tentatively), Clark Pinnock, Glenn Peoples, Rethinking Hell movement",
         notes: "The more common academic annihilationist position. Allows that 'destruction' follows a real judgment with proportional consequences — it answers the fairness objection by allowing degrees of punishment before extinction."
       },
+            {
+        name: "Hopeful Universalism",
+        spectrum: 85,
+        tags: ["Catholic", "Mainline", "Nuanced"],
+        summary: "We do not possess definitive, certain knowledge that any specific human being is currently in Hell, nor can we dogmatically assert that all will be saved. However, because scripture states God desires all people to be saved, Christians have a theological right—and a spiritual duty—to pray and reasonably hope that Christ's redemption will ultimately outwit human resistance, resulting in a completely empty Hell.",
+        key_texts: ["1 Tim 2:4", "2 Pet 3:9", "John 12:32", "Rom 11:32"],
+        proponents: "Hans Urs von Balthasar, Bishop Robert Barron, Karl Barth (arguably), Edith Stein",
+        notes: "Famously articulated in Balthasar's landmark book 'Dare We Hope That All Men Be Saved?'. It carefully navigates the tension between Christ’s stark warnings of damnation (treated as real, catastrophic possibilities) and God's universal salvific will."
+      }
+
       {
         name: "Universal Reconciliation (Universalism)",
         spectrum: 100,
