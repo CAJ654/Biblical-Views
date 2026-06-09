@@ -676,6 +676,16 @@ const categories = [
         proponents: "Fourth Lateran Council, Council of Trent, Catholic Magisterium",
         notes: "Defined dogma of the Catholic Church using Aristotelian substance/accident metaphysics. Rejected at the Reformation."
       },
+            {
+        name: "The Divine Mystery (Sacramental Realism)",
+        spectrum: 12,
+        tags: ["Orthodox", "Eastern", "Mystical"],
+        summary: "The bread and wine are truly, radically changed into the literal body and blood of Christ by the operation of the Holy Spirit during the prayer of invocation (Epiklesis). However, human logic cannot and should not attempt to explain *how* this happens. It explicitly rejects the Roman Catholic scholastic categories of 'substance' and 'accidents', treating the change as an impenetrable, holy mystery.",
+        key_texts: ["John 6:51–58", "1 Cor 10:16", "Luke 22:19"],
+        proponents: "John Damascene, Nicholas Cabasilas, Eastern Orthodox Holy Synod",
+        notes: "While sharing the same practical reverence for the elements as Roman Catholicism, Orthodoxy avoids dogmatic philosophical definitions. The ultimate purpose of the change is not an abstract miracle on the altar, but the transformation and deification (Theosis) of the believers who partake."
+      },
+
       {
         name: "Consubstantiation / Sacramental Union",
         spectrum: 25,
@@ -684,6 +694,15 @@ const categories = [
         key_texts: ["Matt 26:26", "1 Cor 10:16"],
         proponents: "Luther, Lutheran confessions, Formula of Concord",
         notes: "'Consubstantiation' is a term Lutherans sometimes reject as imprecise. The preferred Lutheran term is 'Real Presence' or 'sacramental union.'"
+      },
+            {
+        name: "Receptionism (Via Media)",
+        spectrum: 45,
+        tags: ["Anglican", "Methodist roots", "Moderate"],
+        summary: "Christ is truly and spiritually present to the believer, but this presence is located not objectively within the bread and wine themselves, but internally within the heart of the faithful communicant who receives them. If an unbeliever eats the elements, they receive only bread and wine; but a believer simultaneously receives the spiritual reality of Christ.",
+        key_texts: ["1 Cor 11:28", "John 6:35", "1 Cor 10:16"],
+        proponents: "Thomas Cranmer, Richard Hooker, John Wesley",
+        notes: "The dominant view in classic Anglicanism and early Methodism. It allows the church to affirm a 'Real Presence' of Christ in the service without requiring the belief that Christ's localized body is physically or structurally attached to a piece of bread sitting on an altar."
       },
       {
         name: "Spiritual / Calvinist Presence",
