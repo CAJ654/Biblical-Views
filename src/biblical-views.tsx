@@ -71,7 +71,7 @@ const categories = [
         key_texts: ["1 Tim 2:4", "2 Pet 3:9", "John 12:32", "Rom 11:32"],
         proponents: "Hans Urs von Balthasar, Bishop Robert Barron, Karl Barth (arguably), Edith Stein",
         notes: "Famously articulated in Balthasar's landmark book 'Dare We Hope That All Men Be Saved?'. It carefully navigates the tension between Christ’s stark warnings of damnation (treated as real, catastrophic possibilities) and God's universal salvific will."
-      }
+      },
 
       {
         name: "Universal Reconciliation (Universalism)",
