@@ -604,7 +604,7 @@ const categories = [
         notes: "A radical consistency in interiorizing faith. Both the Religious Society of Friends (Quakers) and the Salvation Army completely omit water baptism from their communal religious practices, prioritizing purely spiritualized conversion and ethical fruit."
       }
     ]
-  }
+  },
   {
     id: "gifts",
     icon: "🕊️",
