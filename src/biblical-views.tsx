@@ -543,6 +543,68 @@ const categories = [
       }
     ]
   },
+    {
+    id: "baptism",
+    icon: "💧",
+    title: "Baptism",
+    question: "Who should be baptized, and what does the water actually do?",
+    views: [
+      {
+        name: "Baptismal Regeneration (Sacramental Reality)",
+        spectrum: 0,
+        tags: ["Catholic", "Orthodox", "Anglican (some)"],
+        summary: "Baptism is a sacrament instituted by Christ that literally effects what it signifies: it washes away original and personal sin, imparts the Holy Spirit, infuses saving grace, and regenerates the soul. It operates ex opere operato (by the action itself). It is administered to both infants (to cleanse original sin and bring them into the church) and adult converts.",
+        key_texts: ["John 3:5", "Acts 2:38", "1 Pet 3:21", "Titus 3:5"],
+        proponents: "Augustine, Thomas Aquinas, Council of Trent, Eastern Orthodox Holy Synod",
+        notes: "The historic, dogmatic position of Rome and the East. While both affirm regeneration in the waters, Orthodoxy practices full triple immersion to symbolize dying and rising, whereas Catholicism primarily practices affusion (pouring)."
+      },
+      {
+        name: "Sacramental Renewal & Forgiveness",
+        spectrum: 18,
+        tags: ["Lutheran"],
+        summary: "Baptism is a true means of grace through which God offers and conveys the forgiveness of sins, rescue from death, and eternal salvation. It is not a mere human work or symbol, but a divine work where water is combined with God's word. Infants should be baptized because they are included in Christ's command and God can ignite a passive, miraculous 'infant faith' in their hearts.",
+        key_texts: ["Mark 16:16", "Acts 22:16", "Col 2:11–12"],
+        proponents: "Martin Luther, Small Catechism, Augsburg Confession",
+        notes: "Differs from the Catholic view by sharply anchoring the sacrament's efficacy in faith and the Word, rather than scholastic sacerdotal frameworks. Rejects the Anabaptist view that infants cannot benefit from the rite."
+      },
+      {
+        name: "Covenantal Paedobaptism",
+        spectrum: 35,
+        tags: ["Reformed", "Presbyterian"],
+        summary: "Baptism does not mechanically regenerate the soul or guarantee salvation, but it is the New Covenant sign and seal that replaces Old Covenant circumcision. It is properly administered to the infants of believing parents to mark them out as members of the visible covenant community and heirs to God's promises. Salvation is applied later when the child personally embraces the gospel by faith.",
+        key_texts: ["Col 2:11–12", "Acts 2:39", "Gen 17:7", "1 Cor 7:14"],
+        proponents: "John Calvin, Westminster Standards, Ulrich Zwingli, Charles Hodge",
+        notes: "Strictly distinguishes between the visible church (all baptized members) and the invisible church (only the true elect). Baptism brings an infant into the covenant structure, exposing them to its blessings and obligations, but personal regeneration remains sovereign."
+      },
+      {
+        name: "Dual-Practice / Covenantal Inclusivism",
+        spectrum: 50,
+        tags: ["Methodist", "Wesleyan"],
+        summary: "Affirms infant baptism as a sign of God's prevenient grace operating in a child's life before they can choose Him, making them part of the covenant family. However, it also fully validates and embraces believer's baptism for adult converts. The mode (sprinkling, pouring, or immersion) is considered indifferent; the spiritual reality of initiation into Christ's body is what matters.",
+        key_texts: ["Acts 16:33", "Rom 6:3–4", "Titus 3:5"],
+        proponents: "John Wesley, Methodist Articles of Religion",
+        notes: "Highly pastoral and flexible. It avoids the rigid definitions of strict Reformed covenant structures while maintaining a strong historic commitment to the validity of childhood baptism as an objective declaration of grace."
+      },
+      {
+        name: "Credobaptism / Believer's Baptism",
+        spectrum: 75,
+        tags: ["Baptist", "Anabaptist", "Evangelical"],
+        summary: "Baptism is an ordinance, not a saving sacrament. It is strictly reserved for those who have reached an age of accountability and made a conscious, credible personal profession of saving faith in Jesus Christ. It is an outward public declaration of an already occurred inward spiritual conversion. The only biblical and valid mode is full immersion in water.",
+        key_texts: ["Matt 28:19", "Acts 2:41", "Rom 6:3–4", "Acts 8:36–38"],
+        proponents: "Balthasar Hubmaier, London Baptist Confession, Charles Spurgeon, mainstream Evangelicals",
+        notes: "The dominant view in modern global evangelicalism. It completely rejects infant baptism as invalid and unscriptural, meaning those baptized as infants must be 're-baptized' (though proponents argue this is their first true baptism) upon dynamic conversion."
+      },
+      {
+        name: "Spirit-Only / Non-Water Baptism",
+        spectrum: 100,
+        tags: ["Quaker", "Salvation Army", "Ultra-Dispensational"],
+        summary: "Physical water baptism was a temporary, localized Jewish ritual used by John the Baptist and the early Jewish church to bridge dispensations, but it is not intended for the permanent Gentile church. True Christian baptism is entirely spiritual—the direct baptism of the Holy Spirit into the inner life of the believer. External material rituals are unnecessary and risk shifting focus away from inward regeneration.",
+        key_texts: ["Matt 3:11", "Eph 4:5", "1 Cor 1:17", "1 Cor 12:13"],
+        proponents: "George Fox, William Booth, E.W. Bullinger",
+        notes: "A radical consistency in interiorizing faith. Both the Religious Society of Friends (Quakers) and the Salvation Army completely omit water baptism from their communal religious practices, prioritizing purely spiritualized conversion and ethical fruit."
+      }
+    ]
+  }
   {
     id: "gifts",
     icon: "🕊️",
