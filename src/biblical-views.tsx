@@ -161,6 +161,15 @@ const categories = [
         proponents: "J.N. Darby, C.I. Scofield, John Walvoord, Tim LaHaye, John MacArthur",
         notes: "The most popular view in American Evangelicalism. Originated with Darby in the 1830s; popularized through the Scofield Bible and Left Behind series."
       },
+            {
+        name: "Partial Rapture",
+        spectrum: 15,
+        tags: ["Dispensational variant", "Holiness", "Pentecostal roots"],
+        summary: "Only those believers who are spiritually mature, faithful, and actively watching for Christ's return will be taken in the Rapture. 'Carnal' or unfaithful Christians are left behind to endure the fires of the Tribulation as a necessary process of purification, and they may be caught up in subsequent 'waves' of raptures later in the period.",
+        key_texts: ["Matt 24:40–42", "Luke 21:36", "Heb 9:28", "Rev 3:3"],
+        proponents: "Robert Govett, G.H. Pember, J.A. Seiss, Watchman Nee (in part)",
+        notes: "A distinctive view that treats the Rapture not as an unconditional escape for all who possess saving faith, but as a reward for personal holiness and vigilance. Highly controversial among mainstream dispensationalists, who argue it splits the corporate Body of Christ and introduces works-righteousness into glorification."
+      },
       {
         name: "Mid-Tribulation Rapture",
         spectrum: 25,
@@ -188,6 +197,15 @@ const categories = [
         proponents: "George Ladd, Doug Moo, John Piper, N.T. Wright",
         notes: "The historic view of the church before Darby. Common in Reformed, Anglican, and many charismatic circles. Closer to pre-wrath than to pretrib — both views agree the church endures the Tribulation rather than being removed before it, and both ground this in 1 Thess 5:9 (the church is not appointed to wrath). The key distinction from pre-wrath is that post-trib eliminates the two-stage structure: the rapture and the Second Coming are the same moment, with believers rising to meet Christ in the air (apantēsis) as he descends — not being caught up and held while the bowls fall below."
       },
+            {
+        name: "Preterist Tribulation (Completed)",
+        spectrum: 95,
+        tags: ["Preterist", "Postmillennial", "Amillennial"],
+        summary: "The Great Tribulation is an event of the distant past, entirely fulfilled in the first century during the Roman siege and destruction of Jerusalem in 70 AD. The language of cosmic collapse in the Olivet Discourse is prophetic hyperbole for the end of the Old Covenant order. There is no future global tribulation, and the 'Rapture' is simply the final resurrection at Christ's ultimate return.",
+        key_texts: ["Matt 24:21", "Matt 24:34", "Rev 1:7", "Luke 21:20–24"],
+        proponents: "Eusebius, Kenneth Gentry, Gary DeMar, R.C. Sproul (Partial Preterist)",
+        notes: "Answers the timing problem of Matthew 24:34 ('this generation will not pass away') by assigning the Tribulation to the literal generation of the apostles. It shifts the focus from a future timeline to a historical vindication of the New Covenant church over localized Judean persecution."
+      },
       {
         name: "No Rapture (Amil / Postmil)",
         spectrum: 100,
@@ -214,6 +232,15 @@ const categories = [
         proponents: "Darby, Scofield, Walvoord, Ryrie, Tim LaHaye",
         notes: "The dominant view in American evangelical seminaries for much of the 20th century. Replaced largely by progressive dispensationalism in academic circles."
       },
+            {
+        name: "Progressive Dispensational Premillennialism",
+        spectrum: 10,
+        tags: ["Dispensational", "Academic Evangelical", "Already/Not Yet"],
+        summary: "Christ's Davidic kingdom is 'already' inaugurated in heaven following His ascension, but its 'not yet' literal, political fulfillment will occur during a future 1,000-year earthly reign. It maintains a distinct future role for ethnic/national Israel but rejects the radical separation between the Church and Israel seen in classic dispensationalism, viewing them as complementary phases of one progressive plan of redemption.",
+        key_texts: ["Acts 2:29–36", "Eph 3:5–6", "Rev 20:4–6", "Heb 1:3"],
+        proponents: "Craig Blaising, Darrell Bock, Robert Saucy, Bruce Ware",
+        notes: "Developed in the late 1980s and 1990s as an academic modification of classic dispensationalism. It softens the strict 'two peoples of God' dichotomy and incorporates the 'already/not yet' kingdom framework popularized by historic premillennialists, while retaining a literal future millennium for Israel."
+      },
       {
         name: "Premillennialism (Historic)",
         spectrum: 15,
@@ -222,6 +249,15 @@ const categories = [
         key_texts: ["Rev 20:1–6", "Zech 14", "Isa 65:17–25"],
         proponents: "Justin Martyr, Irenaeus, George Ladd, Wayne Grudem",
         notes: "Distinguished from Dispensational Premillennialism by not requiring a pretrib rapture or a restored Mosaic temple system."
+      },
+            {
+        name: "Theonomic Postmillennialism (Christian Reconstruction)",
+        spectrum: 70,
+        tags: ["Reformed", "Theonomic", "Political/Cultural Transformation"],
+        summary: "The Millennium is not merely a spiritual reality or a product of evangelistic revival alone, but a comprehensive socio-political transformation of the earth. As the Gospel spreads, biblical law (theonomy) will progressively be adopted by civil governments, leading to Christianized nations, the subjugation of Christ's enemies, and worldwide institutional prosperity *prior* to Christ's physical return.",
+        key_texts: ["Matt 28:18–20", "Ps 110:1", "Gen 1:28", "1 Cor 15:24–25"],
+        proponents: "R.J. Rushdoony, Greg Bahnsen, Gary North, Doug Wilson",
+        notes: "Often called 'Christian Reconstructionism.' Unlike historical pietistic postmillennialism (which focused mostly on church growth and personal revivals), theonomic postmillennialism emphasizes the active dominion of Christians over law, economics, and civil institutions using the Old Testament judicial law as a standard."
       },
       {
         name: "Postmillennialism",
