@@ -81,6 +81,50 @@ const categories = [
       }
     ]
   },
+	{
+    id: "intermediate_state",
+    icon: "🛌",
+    title: "The Intermediate State",
+    question: "What happens to the human soul immediately upon physical death?",
+    views: [
+      {
+        name: "Purgatorial Purification",
+        spectrum: 0,
+        tags: ["Roman Catholic"],
+        summary: "Believers who die in a state of grace but still carry the temporal punishment and residual stains of unconfessed venial sins do not enter heaven immediately. Instead, they enter Purgatory—a temporary state of painful, purifying fire where their souls are cleansed before entering the beatific vision.",
+        key_texts: ["1 Cor 3:15", "2 Macc 12:46", "Matt 12:32"],
+        proponents: "Pope Gregory the Great, Thomas Aquinas, Council of Trent",
+        notes: "Completely rejected by Protestants during the Reformation as an unscriptural denial of Christ’s sufficient, finished payment for sin on the cross."
+      },
+      {
+        name: "Conscious Intermediate Rest / Hades",
+        spectrum: 35,
+        tags: ["Eastern Orthodox", "Anglican"],
+        summary: "Upon death, the soul enters a conscious, transitional spiritual realm. The righteous experience a foretaste of paradise and rest, while the unrighteous experience a foretaste of punishment. Neither group enters their ultimate destination (Heaven or Gehenna) until the final physical resurrection and judgment.",
+        key_texts: ["Luke 16:19–31", "Rev 6:9–11", "Luke 23:43"],
+        proponents: "Justin Martyr, Irenaeus, Eastern Orthodox Liturgics",
+        notes: "Orthodoxy rejects the legalistic Roman view of Purgatorial debt-paying, but heavily emphasizes praying for the dead, believing souls can still experience comfort and change prior to the Final Judgment."
+      },
+      {
+        name: "Immediate Final Judgment & Destiny",
+        spectrum: 65,
+        tags: ["Reformed", "Evangelical", "Baptist"],
+        summary: "There is no intermediate delay, waiting room, or cleansing process. The moment a human dies, their soul is instantly judged and assigned to its permanent destiny. Believers are immediately present in spirit with Christ in the highest heaven, while unbelievers are instantly cast into torment, awaiting the final bodily resurrection.",
+        key_texts: ["2 Cor 5:8", "Phil 1:23", "Heb 9:27", "Luke 23:43"],
+        proponents: "John Calvin, Westminster Confession, Charles Spurgeon",
+        notes: "The standard Protestant position. It emphasizes an absolute, clean break at death, rejecting any post-mortem transitions, prayers for the dead, or spiritual alterations."
+      },
+      {
+        name: "Soul Sleep / Psychopannychia",
+        spectrum: 100,
+        tags: ["Anabaptist (historic)", "Seventh-day Adventist"],
+        summary: "Human beings are an indivisible, holistic unity of body and breath; the soul cannot exist or think independently apart from a physical body. Upon death, a person enters a state of total, unconscious sleep. They have no awareness of time or reality until they are awakened at the final resurrection.",
+        key_texts: ["Eccl 9:5", "John 11:11–14", "1 Thess 4:13–15", "Ps 146:4"],
+        proponents: "Early Radicals, Martin Luther (qualified), Ellen G. White",
+        notes: "John Calvin famously wrote his first theological treatise (*Psychopannychia*) explicitly to combat this view among early Anabaptists. It remains a definitive pillar of Adventist eschatology."
+      }
+    ]
+  },
   {
     id: "torah",
     icon: "📜",
@@ -149,6 +193,50 @@ const categories = [
         key_texts: ["Rom 6:14", "Gal 5:18"],
         proponents: "Johannes Agricola (historical), some hyper-grace teachers",
         notes: "Condemned at the Council of Trent and by Luther. Most mainstream positions affirm law's role in conviction and sanctification even while rejecting it as a basis for justification."
+      }
+    ]
+  },
+  {
+    id: "eschatological_hermeneutics",
+    icon: "⏳",
+    title: "Eschatological Hermeneutics",
+    question: "How should biblical prophecy and the book of Revelation be interpreted?",
+    views: [
+      {
+        name: "Preterism",
+        spectrum: 0,
+        tags: ["Reformed", "Postmillennial", "Amillennial"],
+        summary: "Most, if not all, biblical prophecies concerning the end times—including the Olivet Discourse and the book of Revelation—were already fully accomplished in the past, culminating in the destruction of Jerusalem and the Jewish Temple by Rome in 70 AD. The language used is ancient cosmic hyperbole describing the structural end of the Old Covenant order.",
+        key_texts: ["Matt 24:34", "Rev 1:1", "Matt 16:28"],
+        proponents: "Eusebius, Kenneth Gentry, Gary DeMar, R.C. Sproul (Partial Preterist)",
+        notes: "Partial Preterism keeps a future physical Second Coming and Final Resurrection. Full/Hyper-Preterism argues *all* prophecy is done, including the resurrection, placing it outside the historic creeds of orthodox Christianity."
+      },
+      {
+        name: "Historicism",
+        spectrum: 35,
+        tags: ["Classic Protestant", "Reformation Era"],
+        summary: "The book of Revelation is a literal, progressive prophetic roadmap of the entire sweep of church history from the first century until the return of Christ. Symbols represent historical epochs, political empires, and corrupt institutions. The Pope or the Roman system is typically identified directly as the Antichrist or the Beast.",
+        key_texts: ["Dan 7", "Rev 9", "2 Thess 2:3–4"],
+        proponents: "Martin Luther, John Calvin, Isaac Newton, Charles Spurgeon",
+        notes: "The consensus view among the Protestant Reformers. It provided immediate historical validation for their break from Rome. It has largely fallen out of favor in modern mainstream scholarship, though it remains a core doctrine of Seventh-day Adventism."
+      },
+      {
+        name: "Idealism / Amillennial Symbolism",
+        spectrum: 65,
+        tags: ["Amillennial", "Catholic", "Orthodox"],
+        summary: "The book of Revelation does not contain a chronological historical timeline or specific future political roadmaps. Instead, it uses highly symbolic, timeless apocalyptic imagery to depict the ongoing, cyclical cosmic spiritual warfare between the Kingdom of God and the kingdoms of this world. It describes the patterns of persecution and ultimate victory that true believers experience in every single generation of church history.",
+        key_texts: ["Rev 12:1–6", "1 Pet 5:8", "John 16:33"],
+        proponents: "Augustine, William Hendriksen, G.K. Beale",
+        notes: "Highly compatible with Amillennialism. It lifts the text out of specific newspaper-headline interpretations, focusing instead on its immediate pastoral, ethical, and theological encouragement for suffering churches across time."
+      },
+      {
+        name: "Futurism",
+        spectrum: 100,
+        tags: ["Dispensational", "Premillennial", "Popular Evangelical"],
+        summary: "The vast majority of biblical prophecies concerning the end times, particularly Revelation chapters 4 through 22, remain completely unfulfilled and belong to a future global epoch. This period will witness a literal seven-year Tribulation, a personal global Antichrist, a reconstructed literal third temple in Jerusalem, and a physical catastrophic conclusion to world history.",
+        key_texts: ["Rev 4:1", "Dan 9:27", "2 Thess 2:1–12"],
+        proponents: "Francisco Ribera (historically), J.N. Darby, C.I. Scofield, Hal Lindsey, Tim LaHaye",
+        notes: "Developed in part by Counter-Reformation scholars to deflect the Historicist charge that the Pope was the Antichrist. It became the default eschatological lens of modern American evangelicalism via dispensationalism and pop-culture prophecy media."
       }
     ]
   },
@@ -285,6 +373,121 @@ const categories = [
       }
     ]
   },
+    {
+    id: "atonement",
+    icon: "✝️",
+    title: "The Atonement",
+    question: "What did the death of Jesus achieve, and how does it save?",
+    views: [
+      {
+        name: "Penal Substitutionary Atonement (PSA)",
+        spectrum: 0,
+        tags: ["Reformed", "Evangelical", "Baptist"],
+        summary: "Jesus acted as the literal legal substitute for sinners. On the cross, God imputed the collective guilt of humanity onto Christ, who bore the full, unmitigated divine wrath and legal penalty due for sin. Christ's sacrifice satisfied divine justice and turned away God's anger (propitiation), allowing God to be both just and the justifier of those who believe.",
+        key_texts: ["Isa 53:5", "2 Cor 5:21", "Gal 3:13", "Rom 3:25–26"],
+        proponents: "John Calvin, John Owen, Charles Hodge, J.I. Packer, John Piper",
+        notes: "The dominant view in Protestant evangelicalism since the Reformation. Heavily criticized by modern progressives as 'divine child abuse' and by the Eastern Orthodox for importing cold, Western legalistic concepts into the character of God."
+      },
+      {
+        name: "Satisfaction Theory",
+        spectrum: 20,
+        tags: ["Catholic", "Medieval", "Western"],
+        summary: "Sin is an infinite insult that violates and robs God of His due honor. Because God is perfectly just, He cannot simply overlook this deficit. Humanity owes an infinite debt of honor but lacks the capacity to pay it. Christ, being both God and sinless man, offered a voluntary death of infinite value on the cross, fully satisfying God's offended honor and winning a surplus of merit that is dispensed to believers.",
+        key_texts: ["Rom 5:19", "Heb 9:14", "Matt 20:28"],
+        proponents: "Anselm of Canterbury (Cur Deus Homo), Thomas Aquinas",
+        notes: "Formulated in the 11th century, this model shifted Western theology away from older Patristic 'ransom' models. It differs from PSA because the focus is on restoring God's violated honor through an offering of love, rather than Christ being legally punished by God's wrath."
+      },
+      {
+        name: "Governmental Theory",
+        spectrum: 35,
+        tags: ["Arminian", "Methodist"],
+        summary: "Christ did not receive the exact legal punishment due to individual sinners, nor did He pay a commercial debt. Instead, His suffering demonstrated to the cosmos that God's moral law is holy and that sin has catastrophic consequences. Christ's death allows God to safely pardon repentant sinners without undermining the moral governance and legal stability of the universe.",
+        key_texts: ["Rom 3:25", "Isa 42:21", "Heb 2:10"],
+        proponents: "Hugo Grotius, John Miley, Charles Finney",
+        notes: "A classic mediating view between PSA and Moral Influence. It preserves a public/cosmic legal dimension to the cross without requiring the strict Calvinistic mechanics of immediate legal imputation."
+      },
+      {
+        name: "Recapitulation Theory",
+        spectrum: 50,
+        tags: ["Patristic", "Early Church", "Orthodox"],
+        summary: "Christ saved humanity by systematically reversing the trajectory of the Fall. By becoming incarnate, Christ entered into human history as the New Adam, successfully passing every test where Adam failed, sanctifying every stage of human life, and changing human nature itself from mortality to immortality through His life, death, and resurrection.",
+        key_texts: ["Rom 5:12–21", "Eph 1:10", "1 Cor 15:45"],
+        proponents: "Irenaeus of Lyons, Athanasius of Alexandria",
+        notes: "One of the oldest documented models of the atonement. It views salvation primarily as an ontological rescue mission (healing human nature) rather than a courtroom transaction."
+      },
+      {
+        name: "Christus Victor / Ransom Theory",
+        spectrum: 65,
+        tags: ["Orthodox", "Patristic", "Classic"],
+        summary: "The cross and resurrection were a cosmic battlefield where Christ engaged and defeated the spiritual powers of darkness holding humanity captive. By dying, Christ snared and broke the power of the Devil, smashed the gates of Hades, and liberated humanity from the ontological bondage of sin, fear, and death. The atonement is a victory of cosmic liberation rather than a transaction of legal appeasement.",
+        key_texts: ["Col 2:15", "Heb 2:14–15", "1 Cor 15:54–57", "1 John 3:8"],
+        proponents: "Irenaeus, Origen, Augustine, Gustaf Aulén, Eastern Orthodoxy",
+        notes: "The consensus view of the Early Church Fathers and the modern Eastern Orthodox Church. It treats sin as a disease or a captor to be conquered, rather than a legal ledger to be balanced. Often paired historically with the 'Ransom' model, where Christ's flesh acts as bait to hook Satan."
+      },
+      {
+        name: "Moral Influence Theory",
+        spectrum: 100,
+        tags: ["Liberal", "Mainline Protestant", "Progressive"],
+        summary: "God does not require blood, legal payment, or cosmic satisfaction to forgive sins; He loves humanity unconditionally. The cross is not a transaction, but the ultimate, moving demonstration of God's sacrificial love. This display exposes the depth of human cruelty, breaks down human rebellion, and softens the human heart, inspiring believers to repent, love God, and live lives of moral imitation.",
+        key_texts: ["1 Pet 2:21", "1 John 3:16", "Luke 23:34", "John 15:13"],
+        proponents: "Peter Abelard (historically), Hastings Rashdall, progressive theologians",
+        notes: "First systematically articulated by Abelard in response to Anselm. It became the dominant atonement model within modern liberal and progressive Christian theology, which intentionally rejects substitutionary models as violent or archaic."
+      }
+    ]
+  },
+  {
+    id: "theism",
+    icon: "🌌",
+    title: "The Nature of Theism",
+    question: "What is God's relationship to time, change, and the universe?",
+    views: [
+      {
+        name: "Classical Theism",
+        spectrum: 0,
+        tags: ["Thomistic", "Reformed", "Catholic", "Orthodox"],
+        summary: "God is the infinite, self-existent, necessary ground of all being. He is absolutely transcendent, timeless (outside of time), immutable (unchanging), impassible (incapable of suffering or being affected by external forces), and entirely simple (having no parts or composition). Creation depends totally on God, but God gains nothing from creation.",
+        key_texts: ["Mal 3:6", "Exod 3:14", "Jas 1:17", "Ps 90:2"],
+        proponents: "Augustine, Thomas Aquinas, John Calvin, Catholic Magisterium",
+        notes: "The foundational historic consensus of Western and Eastern theology. It heavily relies on classical metaphysics to protect the absolute sovereignty and self-sufficiency of God from pagan anthropomorphism."
+      },
+      {
+        name: "Modified Classical Theism",
+        spectrum: 25,
+        tags: ["Evangelical", "Contemporary Academic"],
+        summary: "Retains the classical commitments to God’s omnipotence, omniscience, and essential necessity, but rejects strict timelessness and impassibility. God is viewed as entering into time and choosing to be genuinely responsive to, relational with, and emotionally affected by His creatures. God can suffer with His creation out of love.",
+        key_texts: ["Hos 11:8", "Isa 63:9", "John 3:16"],
+        proponents: "Alvin Plantinga, Nicholas Wolterstorff, Juergen Moltmann",
+        notes: "Highly popular among modern evangelical philosophers who argue that strict Thomasian impassibility makes God look indifferent, unloving, or frozen like a Greek philosophical concept rather than the dynamic God of the biblical narrative."
+      },
+      {
+        name: "Open Theism",
+        spectrum: 50,
+        tags: ["Arminian variant", "Evangelical Academic"],
+        summary: "God is omniscient, but because the future does not exist yet and is composed of free human decisions, it cannot be exhaustively known as a certainty. God knows all possibilities perfectly, but chooses to take real risks, learns new information as history unfolds, adapts His plans dynamically, and can genuinely experience regret or surprise.",
+        key_texts: ["Gen 22:12", "Jer 3:7", "Jonah 3:10", "1 Sam 15:11"],
+        proponents: "Clark Pinnock, Greg Boyd, John Sanders, Richard Rice",
+        notes: "A highly controversial structural modification of Arminianism. It attempts to take biblical references to God 'changing His mind' or 'testing Abraham to see what he would do' at face value rather than explaining them away as figures of speech."
+      },
+      {
+        name: "Panentheism",
+        spectrum: 75,
+        tags: ["Progressive", "Mystical"],
+        summary: "The universe is contained within the being of God, but God’s reality extends beyond and transcends the universe. The cosmos is functionally 'in' God, often conceptualized as the physical body of God, meaning God is intimately bound to, affected by, and expressed through the material world while still retaining a distinct divine identity.",
+        key_texts: ["Acts 17:28", "Col 1:17", "Rom 11:36"],
+        proponents: "Paul Tillich, Marcus Borg, Richard Rohr, John A.T. Robinson",
+        notes: "Distinct from Pantheism (which equates God *exactly* with the universe). It is heavily utilized by modern mystical, progressive, and eco-theologians to emphasize divine presence and eliminate the strict creator/creature divide."
+      },
+      {
+        name: "Process Theology",
+        spectrum: 100,
+        tags: ["Liberal Academic", "Post-Christian"],
+        summary: "God is not an absolute, immutable ruler, but a dipolar entity evolving alongside the universe. God possesses a timeless mental nature but a changing physical nature. God does not possess coercive power to override natural laws or human choices; instead, He acts via persuasive power, luring creation toward goodness. God changes, grows, and is perfected as history unfolds.",
+        key_texts: ["Rev 21:5", "1 John 4:16"],
+        proponents: "Alfred North Whitehead, Charles Hartshorne, John B. Cobb",
+        notes: "Based on Whitehead’s process philosophy. It solves the problem of evil by stripping God of coercive omnipotence—God cannot stop a tragedy explicitly; He can only suffer through it and try to guide creation out of it. Rejected as heresy by all traditional branches."
+      }
+    ]
+  },
   {
     id: "salvation",
     icon: "✝️",
@@ -398,6 +601,349 @@ const categories = [
         key_texts: ["Deut 30:19", "Sir 15:14–17 (Apocrypha)"],
         proponents: "Pelagius (c. 354–418), Caelestius",
         notes: "Condemned at the Council of Carthage (418 AD) and the Council of Ephesus (431 AD). Augustine's polemics against Pelagius shaped the entire Western doctrine of grace. Almost no one consciously holds this position today, though critics apply the label to semi-Pelagianism."
+      }
+    ]
+  },
+    {
+    id: "predestination",
+    icon: "📜",
+    title: "Predestination & Free Will",
+    question: "How do divine sovereignty, foreknowledge, and human choice interact?",
+    views: [
+      {
+        name: "Hard Determinism / Theological Fatalism",
+        spectrum: 0,
+        tags: ["High Calvinist", "Augustinian (Strict)"],
+        summary: "Every single event, action, and human choice in history is exhaustively and causally determined by the direct, sovereign decree of God. Human beings do not possess libertarian free will; their desires and actions are entirely dictated by prior divine causes. Salvation and damnation are unconditionally settled before the foundation of the world by divine fiat alone.",
+        key_texts: ["Eph 1:11", "Rom 9:15–21", "Isa 45:7", "Prov 16:4"],
+        proponents: "Gottschalk of Orbais, Jonathan Edwards, John Brine, some ultra-high Calvinists",
+        notes: "Often criticized for making God the direct author of sin, a charge mainstream Calvinists try to avoid by employing compatibilism instead."
+      },
+      {
+        name: "Soft Determinism / Compatibilism",
+        spectrum: 35,
+        tags: ["Reformed", "Presbyterian"],
+        summary: "Absolute divine sovereignty and human moral responsibility are completely compatible. God has unchangeably ordained everything that comes to pass, yet He typically fulfills His decrees through secondary causes—including human volitions. Humans choose freely according to their strongest internal desires, but because their fallen nature is corrupt, they will never naturally choose God unless regenerated by prior sovereign grace.",
+        key_texts: ["Acts 2:23", "Gen 50:20", "Phil 2:12–13"],
+        proponents: "Augustine of Hippo, John Calvin, Westminster Assembly, R.C. Sproul",
+        notes: "The standard historic Protestant Reformed position. It avoids hard determinism by asserting that God does not physically coerce the human will; rather, the will acts voluntarily according to its nature, even though the ultimate outcome is completely fixed by God."
+      },
+      {
+        name: "Classical Libertarian Free Will",
+        spectrum: 75,
+        tags: ["Arminian", "Methodist", "Catholic"],
+        summary: "Human choices are not causally predetermined by God. For a choice to be genuinely free and morally accountable, the individual must possess the power of contrary choice (the ability to choose otherwise under identical circumstances). God desires all to be saved and extends 'prevenient grace' to counteract the effects of original sin, enabling any individual to either cooperatively accept or successfully resist the gospel.",
+        key_texts: ["Deut 30:19", "Matt 23:37", "Acts 7:51", "1 Tim 2:4"],
+        proponents: "Jacobus Arminius, John Wesley, Robert Picirilli, Council of Trent",
+        notes: "The dominant framework in global evangelicalism, Methodism, and Catholicism. It rejects theological determinism, arguing it undermines genuine love, distorts divine justice, and destroys human moral responsibility."
+      },
+      {
+        name: "Open Fatalism / Presentism",
+        spectrum: 100,
+        tags: ["Philosophical Radical"],
+        summary: "The future is fundamentally non-existent and unformed, consisting entirely of open contingencies driven by human free agency. Because the future does not exist to be known, God cannot know human choices ahead of time. History is a genuinely open book where human actions actively alter the timeline, and God acts as a reactive agent, navigating realities as they emerge.",
+        key_texts: ["Jer 19:5", "Gen 6:6", "Exod 32:14"],
+        proponents: "Certain extreme fringes of Open Theism and process philosophy",
+        notes: "Pushed to the absolute endpoint of the libertarian scale. It separates itself from mainstream Open Theism by stripping God of any macro-deterministic control or exhaustive certainty over how cosmic history will ultimately finish."
+      }
+    ]
+  },
+  {
+    id: "omniscience",
+    icon: "👁️",
+    title: "Divine Omniscience & Middle Knowledge",
+    question: "How does God know the future and potential contingencies?",
+    views: [
+      {
+        name: "Eternalism / Boethian Omniscience",
+        spectrum: 0,
+        tags: ["Classical", "Catholic", "Reformed"],
+        summary: "God exists completely outside of the linear timeline in an eternal, changeless present. To God, all times (past, present, and future) exist simultaneously. He does not 'foreknow' events in a chronological sequence; rather, He beholds all moments of history at a single, infinite, timeless glance.",
+        key_texts: ["Ps 90:4", "Isa 46:10", "2 Pet 3:8"],
+        proponents: "Boethius, Augustine, Thomas Aquinas, C.S. Lewis",
+        notes: "Allows classical theologians to maintain that God knows human choices without experiencing temporal change or waiting for events to unfold sequentially."
+      },
+      {
+        name: "Middle Knowledge / Molinism",
+        spectrum: 35,
+        tags: ["Jesuit", "Arminian (some)", "Apologetics"],
+        summary: "God possesses three logical stages of knowledge. Crucially, His 'Middle Knowledge' (Scientia Media) occurs prior to His decree to create the universe. In this stage, God perfectly knows all 'counterfactuals of creaturely freedom'—exactly what any possible free creature *would* choose in any possible scenario. God then actualizes the precise universe that achieves His sovereign goals through entirely uncoerced human choices.",
+        key_texts: ["1 Sam 23:11–12", "Matt 11:21–23", "Jer 38:17–18"],
+        proponents: "Luis de Molina, William Lane Craig, Alvin Plantinga",
+        notes: "Highly popular in modern philosophy because it attempts to preserve a meticulous divine blueprint alongside radical, libertarian human free will. Extensively critiqued by Calvinists and Thomists as a logical paradox."
+      },
+      {
+        name: "Simple Foreknowledge",
+        spectrum: 65,
+        tags: ["Arminian", "Early Patristic"],
+        summary: "God exists inside or alongside time and possesses exhaustive, passive chronological knowledge of the future. He simply looks ahead down the corridors of time and sees exactly what free choices humans will make. This foreknowledge is certain but not causal—God knows what will happen because it happens; it does not happen because He knows it.",
+        key_texts: ["1 Pet 1:2", "Rom 8:29", "Ps 139:4"],
+        proponents: "Chrysostom, Arminius (primarily), Richard Watson",
+        notes: "Differs from Molinism because God lacks abstract middle knowledge of what *would* happen in alternative realities; He simply knows what *will* happen in the actual timeline."
+      },
+      {
+        name: "Presentism / Open Omniscience",
+        spectrum: 100,
+        tags: ["Open Theist"],
+        summary: "God is perfectly omniscient because He knows everything that is logically possible to be known. However, because future free decisions do not yet exist, they have no truth value and cannot be known as certainties. God knows the past exhaustively, the present perfectly, and all future possibilities completely, but the actual future remains open and contingent.",
+        key_texts: ["Isa 5:4", "Gen 22:12", "Jer 3:19"],
+        proponents: "Greg Boyd, John Sanders, Clark Pinnock",
+        notes: "Relocates the definition of omniscience away from static future-telling to an active, dynamic, infinite intelligence capable of out-gaming any human choice in real time."
+      }
+    ]
+  },
+  {
+    id: "christology",
+    icon: "🧬",
+    title: "Christology & Christ's Nature",
+    question: "How do the divine and human natures coexist in the person of Jesus?",
+    views: [
+      {
+        name: "Monophysitism / Eutychianism",
+        spectrum: 0,
+        tags: ["Historical Heresy"],
+        summary: "Before the incarnation, Christ had two natures, but upon uniting, His divine nature completely absorbed His human nature like a drop of honey in a vast ocean. This left Christ with one single, exclusively divine nature, rendering His physical humanity fundamentally different from ours.",
+        key_texts: ["John 1:14 (misinterpreted)"],
+        proponents: "Eutyches (condemned at Council of Chalcedon, 451 AD)",
+        notes: "Placed at the extreme divine end of the spectrum because it effectively erases the real, authentic human experience and physical limitations of Jesus."
+      },
+      {
+        name: "Miaphysitism",
+        spectrum: 25,
+        tags: ["Oriental Orthodox", "Coptic", "Ethiopian"],
+        summary: "Rejects Monophysitism but also rejects Western Chalcedonian formulas. It states that divinity and humanity are united in Jesus into 'one composite nature' (physis) without separation, without confusion, and without division. Christ is fully divine and fully human in one single, unified reality.",
+        key_texts: ["John 1:14", "1 John 4:2"],
+        proponents: "Cyril of Alexandria, Dioscorus of Alexandria",
+        notes: "The official doctrine of the Oriental Orthodox Churches (Coptic, Armenian, Syrian, Ethiopian). Long accused by Western churches of being heretical Monophysites, modern ecumenical dialogues have proven their views are functionally orthodox but express themselves through different linguistic frameworks."
+      },
+      {
+        name: "Nicene / Chalcedonian Orthodoxy",
+        spectrum: 50,
+        tags: ["Catholic", "Eastern Orthodox", "Protestant"],
+        summary: "Jesus Christ is one single Divine Person who permanently possesses two distinct natures: a fully divine nature (homoousios with the Father) and a fully human nature (homoousios with humanity). These two natures exist in a 'hypostatic union' without confusion, without change, without division, and without separation.",
+        key_texts: ["Phil 2:5–11", "Col 2:9", "Heb 4:15", "John 1:1"],
+        proponents: "Leo the Great, Council of Chalcedon, Athanasius",
+        notes: "The absolute standard of orthodoxy for Roman Catholicism, Eastern Orthodoxy, and all major classical Protestant denominations."
+      },
+      {
+        name: "Nestorianism",
+        spectrum: 75,
+        tags: ["Historical Heresy", "Church of the East"],
+        summary: "Jesus Christ consists of two separate, distinct persons inside one physical body: a divine person (the Son of God) and a human person (Jesus of Nazareth). These persons are joined purely by a moral union of will. Mary is only the mother of the human person (Christotokos), not the divine person (Theotokos).",
+        key_texts: ["Mark 13:32", "Luke 2:52"],
+        proponents: "Nestorius (condemned at Council of Ephesus, 431 AD)",
+        notes: "Scholars debate whether Nestorius himself actually taught this mechanical separation, but the term remains the theological shorthand for splitting Christ into two separate mental/spiritual identities."
+      },
+      {
+        name: "Apollinarianism",
+        spectrum: 100,
+        tags: ["Historical Heresy"],
+        summary: "Jesus possessed a real human physical body and a lower emotional soul, but He lacked a rational human mind. In place of a human brain and intellect, the divine Logos functioned as His mind. Christ was effectively God wearing a biological human suit.",
+        key_texts: ["John 1:14 (misinterpreted)"],
+        proponents: "Apollinaris of Laodicea (condemned at Council of Constantinople, 381 AD)",
+        notes: "Placed at the human-mind endpoint because it deals explicitly with the mechanics of the brain. Strongly condemned because if Christ lacked a human mind, He did not truly assume human nature, leaving the human intellect unredeemed."
+      }
+    ]
+  },
+  {
+    id: "justification",
+    icon: "⚖️",
+    title: "Justification & Sanctification",
+    question: "How is a sinner declared righteous, and how does that relate to personal holiness?",
+    views: [
+      {
+        name: "Forensic Justification (Imputed Righteousness)",
+        spectrum: 0,
+        tags: ["Lutheran", "Reformed", "Baptist"],
+        summary: "Justification is an instantaneous, legal declaration by God in the heavenly courtroom. The sinner is not made intrinsically righteous; rather, Christ's perfect righteousness is legally credited (imputed) to their account through faith alone (Sola Fide). Sanctification (personal transformation) is a separate, distinct, lifelong consequence that inevitably follows justification but plays zero part in it.",
+        key_texts: ["Rom 4:4–5", "Gal 2:16", "Eph 2:8–9", "2 Cor 5:21"],
+        proponents: "Martin Luther, John Calvin, J.I. Packer, Charles Spurgeon",
+        notes: "Famously summarized by Luther's phrase simul justus et peccator (simultaneously righteous and a sinner). It isolates legal status completely from behavioral merit."
+      },
+      {
+        name: "Imputed & Imparted Righteousness",
+        spectrum: 40,
+        tags: ["Methodist", "Wesleyan", "Anglican"],
+        summary: "Agrees that justification is a free legal pardon received through faith, but argues that God never imputes righteousness without simultaneously imparting it. The moment a believer is legally justified, the Holy Spirit infuses real, transforming power into their heart, breaking the power of sin and enabling a life of active, personal, Christian perfection.",
+        key_texts: ["Rom 8:1–4", "1 John 3:7", "Jas 2:24"],
+        proponents: "John Wesley, John William Fletcher",
+        notes: "A crucial Protestant middle ground designed to prevent antinomianism (the idea that moral behavior doesn't matter because one is legally covered by grace)."
+      },
+      {
+        name: "Transformative Justification (Infused Grace)",
+        spectrum: 75,
+        tags: ["Roman Catholic"],
+        summary: "Justification is not a mere legal declaration, but a real, internal transformation of the soul. Through the sacraments, God infuses saving grace into the believer, washing away sin and making them truly, inherently righteous. Justification is a process that grows through faith cooperating with good works, and its final certainty is only determined at judgment.",
+        key_texts: ["Jas 2:24", "Gal 5:6", "Rom 2:6–13", "Phil 2:12"],
+        proponents: "Augustine, Thomas Aquinas, Council of Trent",
+        notes: "Strictly rejects the Protestant 'courtroom snapshot' model, viewing justification and sanctification as an inseparable, lifelong organic process of sacramental grace."
+      },
+      {
+        name: "Theosis / Deification",
+        spectrum: 100,
+        tags: ["Eastern Orthodox"],
+        summary: "Salvation is conceptualized through the lens of healing and union rather than legal status. Justification is swallowed up by 'Theosis'—the lifelong process of becoming increasingly unified with God, participating directly in His uncreated divine energies, and having human nature restored to its original, incorruptible design.",
+        key_texts: ["2 Pet 1:4", "Ps 82:6", "John 10:34", "Partakers of the divine nature"],
+        proponents: "Athanasius ('God became man so that man might become god'), Gregory Palamas",
+        notes: "The definitive Eastern landscape. It shifts the entire focus away from Western forensic accounts of legal guilt and penal ledgers to a mystical, organic restoration of cosmic nature."
+      }
+    ]
+  },
+  {
+    id: "church_and_state",
+    icon: "👑",
+    title: "Church, State & Christendom",
+    question: "What is the proper institutional relationship between the church and civil government?",
+    views: [
+      {
+        name: "Theocracy / Ceasaropapism / Radical Christendom",
+        spectrum: 0,
+        tags: ["Medieval Catholic", "Magisterial Reformed"],
+        summary: "The church and the state are unified under a single, overarching Christian order. Civil rulers are explicitly bound to enforce biblical law, suppress heresy, fund true religion, and protect the institutional church via the sword. The state operates as the physical arm of the Kingdom of God.",
+        key_texts: ["Ps 2:10–12", "Isa 49:23", "Rom 13:4"],
+        proponents: "Pope Boniface VIII (Unam Sanctam), John Calvin (Geneva model), Puritans",
+        notes: "The default operating standard of Europe for over a millennium. It views religious pluralism or secular neutrality as an insult to Christ's total kingship over nations."
+      },
+      {
+        name: "Two Kingdoms Theory",
+        spectrum: 35,
+        tags: ["Lutheran", "Classical Reformed"],
+        summary: "God rules the world through two distinct tracks: the civil realm (governed by natural law, reason, and the secular sword to keep order) and the spiritual realm (governed by the Gospel and word alone). Christians operate in both but must never confuse them. The state should not enforce religious doctrine, and the church should not wield political power.",
+        key_texts: ["Rom 13:1–7", "Matt 22:21", "John 19:11"],
+        proponents: "Martin Luther, David VanDrunen, Michael Horton",
+        notes: "Designed to allow Christians to serve as soldiers or judges using civil reason, without expecting those secular structures to become spiritually redemptive."
+      },
+      {
+        name: "Secular State / Pluralistic Freedom",
+        spectrum: 70,
+        tags: ["Modern Evangelical", "Mainline Protestant"],
+        summary: "The state must remain completely neutral regarding religion, neither establishing a church nor suppressing faith. This protects absolute liberty of conscience for all citizens. Christians operate openly within a pluralistic public square, using persuasion and democratic voting to advocate for moral policies without attempting to construct an official state church.",
+        key_texts: ["Mark 12:17", "Acts 5:29"],
+        proponents: "Thomas Helwys, Roger Williams, John Locke, modern Western Christians",
+        notes: "The dominant view in modern Western democracies, birthed out of early Baptist and Dissenter struggles for religious freedom."
+      },
+      {
+        name: "Anabaptist / Radical Separation",
+        spectrum: 100,
+        tags: ["Anabaptist", "Mennonite", "Amish"],
+        summary: "The state and its coercive violent sword are fundamentally part of the fallen world order. The church is a counter-cultural community called to total separation from state structures. Christians must refuse to participate in military service, voting, partisan politics, civil magistracy, or taking state oaths.",
+        key_texts: ["John 18:36", "2 Cor 6:14–17", "Matt 5:33–44"],
+        proponents: "Menno Simons, Jakob Ammann, Stanley Hauerwas",
+        notes: "Prioritizes the absolute ethical purity of the church over cultural or political influence, viewing any merger with state power as an automatic corruption of the gospel."
+      }
+    ]
+  },
+  {
+    id: "mariology",
+    icon: "👑",
+    title: "Mary & the Saints",
+    question: "What is the proper status, role, and veneration due to Mary and the saints?",
+    views: [
+      {
+        name: "High Catholic Mariology & Co-Mediation",
+        spectrum: 0,
+        tags: ["Roman Catholic"],
+        summary: "Mary was conceived without original sin (Immaculate Conception), lived perfectly sinless, remained a perpetual virgin, was bodily assumed into heaven, and is exalted as Queen of Heaven. She acts as an active intercessor and Mother of the Church. Saints are formally canonized, and believers can actively pray to them (dulia) to seek their heavenly intercession.",
+        key_texts: ["Luke 1:28", "Luke 1:48", "Rev 12:1"],
+        proponents: "Bernard of Clairvaux, Pope Pius IX, Pope Pius XII",
+        notes: "The dogmatic position of Rome. Explicitly draws a line between Latria (worship due to God alone) and Dulia/Hyperdulia (veneration given to saints and Mary). Protestants reject this line as functionally non-existent in practice."
+      },
+      {
+        name: "Orthodox Theotokology & Veneration",
+        spectrum: 35,
+        tags: ["Eastern Orthodox"],
+        summary: "Mary is dogmatically honored as the Theotokos (Mother of God) and is deeply venerated in liturgy as the highest of all creatures. However, Orthodoxy rejects the Roman Catholic dogma of the Immaculate Conception, arguing Mary inherited a fallen human nature like us but chose not to commit personal sin. Saints are icons of grace who actively pray for the church militant.",
+        key_texts: ["Luke 1:43", "Ps 45:9"],
+        proponents: "John of Damascus, Gregory Palamas",
+        notes: "Maintains a massive liturgical and devotional emphasis on Mary and icons, but rejects the modern scholastic, legalistic dogmas formulated unilaterally by the Roman papacy."
+      },
+      {
+        name: "Reformed / Evangelical Christocentric View",
+        spectrum: 100,
+        tags: ["Reformed", "Baptist", "Evangelical"],
+        summary: "Mary was a faithful, godly, virgin chosen instrument who gave birth to Christ, but she was a normal sinner saved by grace who went on to have other children with Joseph. Veneration of Mary or praying to dead saints is strictly forbidden as unscriptural idolatry and necromancy, violating the unique, exclusive mediatorship of Jesus Christ.",
+        key_texts: ["1 Tim 2:5", "Isa 8:19", "Matt 12:46–50", "Luke 11:27–28"],
+        proponents: "Ulrich Zwingli, John Calvin, Charles Spurgeon, Mainstream Evangelicals",
+        notes: "Stands at the absolute right endpoint. It completely flattens any special spiritual hierarchy, treating Mary and historic saints simply as deceased brothers and sisters in Christ whose lives are examples to study, not channels to contact."
+      }
+    ]
+  },
+	{
+    id: "church_nature",
+    icon: "👥",
+    title: "The Nature of the Church",
+    question: "Where does the true identity and boundary of the Church reside?",
+    views: [
+      {
+        name: "Strict Visible / Sacramental Institutionalism",
+        spectrum: 0,
+        tags: ["Roman Catholic", "Eastern Orthodox"],
+        summary: "The Church is fundamentally a visible, concrete, historical institution. Its boundaries are defined by valid apostolic succession, sacramental communion, and formal institutional submission. The visible hierarchy *is* the body of Christ on earth; outside of this specific visible ark, there is no ordinary assurance of salvation.",
+        key_texts: ["Matt 16:18", "John 17:21", "Ignatius Letters"],
+        proponents: "Cyprian ('He cannot have God for his Father who has not the Church for his Mother'), Bellarmine",
+        notes: "Equates the true mystical church directly with the visible communion register. While Vatican II modified this for Rome regarding 'separated brethren,' the structural identity remains historic and institutional."
+      },
+      {
+        name: "Dual Visible / Invisible Ecclesiology",
+        spectrum: 50,
+        tags: ["Reformed", "Presbyterian", "Lutheran"],
+        summary: "Maintains a strict, necessary distinction between the Visible Church (all who outwardly profess faith and participate in the sacraments globally, containing both wheat and tares) and the Invisible Church (the true elect known only to God across all eras and denominations). The true church transcends any single earthly organization.",
+        key_texts: ["2 Tim 2:19", "Rom 9:6–7", "Matt 13:24–30"],
+        proponents: "Augustine, John Calvin, Martin Luther, Westminster Standards",
+        notes: "Allows Protestants to affirm the corporate value of local, organized church membership and sacraments without claiming that their specific visible denomination holds an exclusive monopoly on salvation."
+      },
+      {
+        name: "Pure Invisible / Mystical Gathering",
+        spectrum: 100,
+        tags: ["Quaker", "Plymouth Brethren", "Non-Denominational"],
+        summary: "External institutional structures, formal titles, ordinations, and physical brick-and-mortar networks are completely indifferent, if not outright hindrances. The true church is entirely spiritual and invisible—composed solely of genuine born-again believers united mystically by the Holy Spirit. Church occurs wherever two or three meet organically.",
+        key_texts: ["Matt 18:20", "John 4:21–24", "Col 3:11"],
+        proponents: "George Fox, John Nelson Darby, Radical Free Church networks",
+        notes: "Stands at the right endpoint because it completely strips ecclesiology of any historical, sacramental, hierarchical, or legal institutional necessity."
+      }
+    ]
+  },
+	{
+    id: "polity",
+    icon: "⛪",
+    title: "Church Governance & Polity",
+    question: "How should the local and global church be structured and governed?",
+    views: [
+      {
+        name: "Episcopal Polity",
+        spectrum: 0,
+        tags: ["Catholic", "Orthodox", "Anglican"],
+        summary: "Church authority is centralized and flows downward through a sacred hierarchy of solo bishops (episkopoi). Validity rests on historical 'Apostolic Succession'—the unbroken physical line of ordinations tracing back to the Apostles. Local priests are appointed by and answerable to their regional bishop, who guards doctrine and maintains corporate unity.",
+        key_texts: ["Titus 1:5", "1 Tim 3:1–7", "Acts 14:23"],
+        proponents: "Ignatius of Antioch, Irenaeus, Roman Catholic Papacy, Eastern Synods",
+        notes: "The historic structure of the vast majority of global Christians. Roman Catholicism represents the most centralized form (culminating in the Pope), Eastern Orthodoxy utilizes a collegial synod of equal bishops, and Anglicanism maintains the structure without papal submission."
+      },
+      {
+        name: "Connectional / Methodist Polity",
+        spectrum: 35,
+        tags: ["Methodist", "Wesleyan"],
+        summary: "Churches operate within a tightly structured network of interconnected representative conferences. While bishops exist to oversee regions and station pastors, their power is deeply checked by democratic clergy and lay conferences. Local congregations do not own their property independently; instead, it is held in trust for the global connection, balancing centralized oversight with democratic assembly.",
+        key_texts: ["Acts 15", "1 Cor 14:40"],
+        proponents: "John Wesley, Francis Asbury, Methodist Book of Discipline",
+        notes: "A unique middle ground that retains an episcopal tier for structural coordination while utilizing representative, legal, and connectional committees to manage properties and pastoral charges."
+      },
+      {
+        name: "Presbyterian Polity",
+        spectrum: 65,
+        tags: ["Reformed", "Presbyterian"],
+        summary: "Church authority is connectional and representative, balanced between local autonomy and regional accountability. Local churches are governed by a bench of ordained local elders (the session or consistory). Local churches are bound together into regional 'presbyteries,' which in turn form broader 'synods' or 'general assemblies.' Governance is handled collectively through these graded representative courts.",
+        key_texts: ["Acts 15", "1 Tim 4:14", "1 Tim 5:17", "Titus 1:5"],
+        proponents: "John Calvin, John Knox, Westminster Standards",
+        notes: "Designed during the Reformation to avoid both the perceived tyranny of a centralized papacy/episcopacy and the perceived chaos of independent radicalism. It emphasizes the absolute equality of all ministers/pastors, rejecting any ranking system among clergy."
+      },
+      {
+        name: "Congregational Polity",
+        spectrum: 100,
+        tags: ["Baptist", "Anabaptist", "Non-Denominational"],
+        summary: "The local church is completely autonomous, self-governing, and independent of all external human ecclesiastical control. There are no bishops or presbyteries that can dictate policy, doctrine, or pastoral hiring. Final earthly authority rests within the local democratic congregation itself, which votes on major decisions. Voluntary associations with boards or conventions may exist for missions, but carry no binding legal authority.",
+        key_texts: ["Acts 6:3–5", "Matt 18:15–17", "1 Cor 5:12"],
+        proponents: "Puritan Separatists, early Baptists, modern Non-denominational networks",
+        notes: "The standard administrative structure for American evangelicalism and independent churches. It prioritizes the immediate priesthood of all believers and local self-determination over historical institutional visible connectionalism."
       }
     ]
   },
@@ -700,6 +1246,41 @@ const categories = [
         key_texts: ["1 Cor 12–14", "Acts 2:17–18", "Joel 2:28–29"],
         proponents: "Wayne Grudem, Sam Storms, Jack Deere, most of the global church",
         notes: "The majority view globally and historically. Differs from hyper-charismaticism by insisting gifts are tested against Scripture and are not ongoing revelation at the level of the canon."
+      }
+    ]
+  },
+	{
+    id: "pneumatology",
+    icon: "🕊️",
+    title: "Pneumatology & The Filioque",
+    question: "From whom does the Holy Spirit eternally proceed?",
+    views: [
+      {
+        name: "Double Procession (The Filioque Clause)",
+        spectrum: 0,
+        tags: ["Roman Catholic", "Protestant"],
+        summary: "The Holy Spirit eternally proceeds from God the Father *and the Son* (Filioque) as from a single, shared principle. This addition to the Nicene Creed underscores the absolute equality of the Son with the Father and protects against Arian subordinationism in Western Europe.",
+        key_texts: ["John 15:26", "John 16:7", "Gal 4:6"],
+        proponents: "Augustine of Hippo, Council of Toledo (589), Thomas Aquinas, John Calvin",
+        notes: "The standard Western position. It was unilaterally added to the Nicene Creed by Rome, becoming the primary theological catalyst for the Great Schism of 1054 AD."
+      },
+      {
+        name: "Single Procession (Through the Son)",
+        spectrum: 50,
+        tags: ["Eastern Orthodox"],
+        summary: "The Holy Spirit proceeds eternally from the Father *alone*, who is the sole source, origin, and fountainhead (monarchia) of the Trinity. The Spirit may be sent into historical creation *through* the Son, but the Spirit's eternal, ontological origin belongs exclusively to the Father.",
+        key_texts: ["John 15:26", "Acts 2:33"],
+        proponents: "Photius the Great, Gregory Palamas, Mark of Ephesus",
+        notes: "The dogmatic Eastern Orthodox position. It rejects the Filioque as both an unauthorized tampering with an ecumenical creed and a theological error that blurs the unique personal properties of the Father."
+      },
+      {
+        name: "Subordinationist Pneumatology",
+        spectrum: 100,
+        tags: ["Historical Heresy", "Arian variant"],
+        summary: "The Holy Spirit is not a co-equal, co-eternal divine person within the Trinity. Instead, the Spirit is a created being, subordinate to both the Father and the Son, acting as an impersonal divine force or an angel-like ministering agent.",
+        key_texts: ["John 14:28 (misapplied)", "1 Tim 2:5"],
+        proponents: "Arius, Macedonius (Pneumatomachians - condemned 381 AD)",
+        notes: "Maintained in modern times by non-Trinitarian groups like Jehovah's Witnesses. It stands at the absolute right endpoint because it strips the Spirit of essential divinity."
       }
     ]
   },
