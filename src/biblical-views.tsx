@@ -522,23 +522,23 @@ const categories = [
         notes: "Named after Amyraut (1596–1664) of Saumur Academy. Critiqued by strict Calvinists for logical incoherence — if atonement is universal but application is particular, what exactly did the atonement accomplish for the non-elect? Common in broader evangelical Calvinism."
       },
       {
-        name: "Molinism",
-        spectrum: 30,
-        tags: ["Catholic", "Some Evangelical"],
-        summary: "God possesses 'middle knowledge' — knowledge of what free creatures would freely do in any circumstance (counterfactuals of creaturely freedom). God uses this knowledge to actualize a world in which his purposes are achieved without overriding libertarian free will. Election is based on God's foreknowledge of who would freely believe under the right conditions.",
-        key_texts: ["Matt 11:21–23", "1 Sam 23:10–13", "Rom 8:29"],
-        proponents: "Luis de Molina, Alvin Plantinga, William Lane Craig, Thomas Flint",
-        notes: "Attempts to fully reconcile Calvinist sovereignty and Arminian freedom. Critiqued from both sides — Calvinists say middle knowledge is incoherent or limits God; Arminians say it smuggles in soft determinism. Dominant in Jesuit theology."
-      },
-      {
-        name: "Molinist Arminianism",
-        spectrum: 40,
-        tags: ["Molinist", "Arminian", "Evangelical"],
-        summary: "God possesses middle knowledge of all counterfactuals of creaturely freedom — what any free creature would freely choose in any circumstance. Election is based on God's foreknowledge of who would freely believe, but God's omniscience guarantees the outcome. Combines Arminian free will with confidence in God's sovereignty through middle knowledge.",
-        key_texts: ["Rom 8:29", "Matt 11:21–23", "1 Sam 23:10–13"],
-        proponents: "Alvin Plantinga, William Lane Craig, Thomas Flint, some contemporary Arminians",
-        notes: "A bridge position between classical Molinians (who are often Catholic) and Arminians. Maintains libertarian free will while affirming that God's middle knowledge makes election certain without determining choices. Less popular than classical Molinism among Evangelicals but growing in academic circles."
-      },
+  name: "Molinism (Middle Knowledge)",
+  spectrum: 30,
+  tags: ["Molinist", "Catholic", "Reformed-leaning"],
+  summary: "God possesses 'middle knowledge' — knowledge of what every free creature would freely do in any possible circumstance, logically prior to His creative decree. God sovereignly selects and actualizes the precise world that achieves His purposes through uncoerced choices. In this form, the emphasis falls on meticulous divine providence: God's middle knowledge gives Him exhaustive, blueprint-level control over history without causally determining individual choices.",
+  key_texts: ["1 Sam 23:10–13", "Matt 11:21–23", "Jer 38:17–18", "Acts 2:23"],
+  proponents: "Luis de Molina, Francisco Suárez, Alvin Plantinga, William Lane Craig (providence emphasis)",
+  notes: "Originated with the Jesuit Molina (1535–1600) as a Catholic alternative to Thomism. This 'high-providence' use of Molinism is favored by those wanting to preserve a strong, detailed divine plan — sometimes called 'Calvinist Molinism.' The central critique is the 'grounding objection': what makes counterfactuals of freedom true before anyone exists or chooses?"
+},
+{
+  name: "Molinist Arminianism",
+  spectrum: 42,
+  tags: ["Molinist", "Arminian", "Evangelical"],
+  summary: "Applies middle knowledge in service of Arminian soteriology rather than meticulous providence. The point of God's knowledge of counterfactuals is to secure genuine libertarian freedom and conditional election: God knows who would freely accept the gospel under various circumstances and arranges sufficient grace accordingly, but the human response remains truly resistible and uncoerced. Emphasis falls on human freedom and God's universal salvific will, not on a detailed predetermined blueprint.",
+  key_texts: ["1 Tim 2:4", "Matt 23:37", "Rom 8:29", "Acts 7:51"],
+  proponents: "Thomas Flint, Kirk MacGregor, some contemporary Arminian philosophers",
+  notes: "Shares the mechanism of classical Molinism but reverses the emphasis: middle knowledge protects libertarian freedom rather than underwriting exhaustive providential control. The contrast with the 'high-providence' Molinism above is one of priority — sovereignty-first vs. freedom-first — not of metaphysical machinery."
+},
       {
         name: "Theosis / Eastern Synergism",
         spectrum: 45,
