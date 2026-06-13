@@ -708,8 +708,17 @@ const categories = [
         notes: "Placed at the extreme divine end of the spectrum because it effectively erases the real, authentic human experience and physical limitations of Jesus."
       },
       {
+        name: "Apollinarianism",
+        spectrum: 15,
+        tags: ["Historical Heresy"],
+        summary: "Jesus possessed a real human physical body and a lower emotional soul, but He lacked a rational human mind. In place of a human brain and intellect, the divine Logos functioned as His mind. Christ was effectively God wearing a biological human suit.",
+        key_texts: ["John 1:14 (misinterpreted)"],
+        proponents: "Apollinaris of Laodicea (condemned at Council of Constantinople, 381 AD)",
+        notes: "Placed at the human-mind endpoint because it deals explicitly with the mechanics of the brain. Strongly condemned because if Christ lacked a human mind, He did not truly assume human nature, leaving the human intellect unredeemed."
+      },
+      {
         name: "Miaphysitism",
-        spectrum: 25,
+        spectrum: 35,
         tags: ["Oriental Orthodox", "Coptic", "Ethiopian"],
         summary: "Rejects Monophysitism but also rejects Western Chalcedonian formulas. It states that divinity and humanity are united in Jesus into 'one composite nature' (physis) without separation, without confusion, and without division. Christ is fully divine and fully human in one single, unified reality.",
         key_texts: ["John 1:14", "1 John 4:2"],
@@ -718,7 +727,7 @@ const categories = [
       },
       {
         name: "Nicene / Chalcedonian Orthodoxy",
-        spectrum: 50,
+        spectrum: 55,
         tags: ["Catholic", "Eastern Orthodox", "Protestant"],
         summary: "Jesus Christ is one single Divine Person who permanently possesses two distinct natures: a fully divine nature (homoousios with the Father) and a fully human nature (homoousios with humanity). These two natures exist in a 'hypostatic union' without confusion, without change, without division, and without separation.",
         key_texts: ["Phil 2:5–11", "Col 2:9", "Heb 4:15", "John 1:1"],
@@ -727,21 +736,12 @@ const categories = [
       },
       {
         name: "Nestorianism",
-        spectrum: 75,
+        spectrum: 100,
         tags: ["Historical Heresy", "Church of the East"],
         summary: "Jesus Christ consists of two separate, distinct persons inside one physical body: a divine person (the Son of God) and a human person (Jesus of Nazareth). These persons are joined purely by a moral union of will. Mary is only the mother of the human person (Christotokos), not the divine person (Theotokos).",
         key_texts: ["Mark 13:32", "Luke 2:52"],
         proponents: "Nestorius (condemned at Council of Ephesus, 431 AD)",
         notes: "Scholars debate whether Nestorius himself actually taught this mechanical separation, but the term remains the theological shorthand for splitting Christ into two separate mental/spiritual identities."
-      },
-      {
-        name: "Apollinarianism",
-        spectrum: 100,
-        tags: ["Historical Heresy"],
-        summary: "Jesus possessed a real human physical body and a lower emotional soul, but He lacked a rational human mind. In place of a human brain and intellect, the divine Logos functioned as His mind. Christ was effectively God wearing a biological human suit.",
-        key_texts: ["John 1:14 (misinterpreted)"],
-        proponents: "Apollinaris of Laodicea (condemned at Council of Constantinople, 381 AD)",
-        notes: "Placed at the human-mind endpoint because it deals explicitly with the mechanics of the brain. Strongly condemned because if Christ lacked a human mind, He did not truly assume human nature, leaving the human intellect unredeemed."
       }
     ]
   },
