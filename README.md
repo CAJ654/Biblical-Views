@@ -2,8 +2,6 @@
 
 An interactive theological reference app exploring 25 major doctrinal questions across 80+ Christian views and traditions. Built with **React + TypeScript + Vite**, deployed to **GitHub Pages** with automated CI/CD.
 
-**Live:** [CAJ654.github.io/Biblical-Views](https://CAJ654.github.io/Biblical-Views/)
-
 -----
 
 ## What It Is
